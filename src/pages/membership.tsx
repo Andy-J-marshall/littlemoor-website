@@ -24,8 +24,8 @@ function Membership() {
                 accompanied by an adult member.
             </p>
             <p>
-                The clubhouse has a bar, 2 full size snooker tables and a darts
-                board
+                The modern clubhouse has a bar, 2 full size snooker tables and a
+                darts board.
             </p>
             <p>
                 Please{' '}
