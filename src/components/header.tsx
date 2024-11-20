@@ -1,14 +1,19 @@
 import { Image } from 'react-bootstrap';
 import logo from '../images/logos/brand-banner-logo.png';
+import { config } from '../config';
 
 function Header() {
     return (
         <div id="header">
-            <Image
+            <h1 style={{ paddingTop: '5rem', height: '200px', width: 'auto' }}>
+                {config.teamNames.fullName}
+            </h1>
+            {/* TODO replace with image instead */}
+            {/* <Image
                 style={{ height: '200px', width: 'auto' }}
                 src={logo}
                 fluid
-            />
+            /> */}
         </div>
     );
 }
