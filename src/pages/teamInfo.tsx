@@ -53,10 +53,10 @@ function TeamInfo() {
     return (
         <div id="team-info" className="page-component center">
             <h1>teams</h1>
-            <Row sm={1} md={2} lg={3} className="g-4 tabs">
+            <Row xs={1} sm={1} md={2} lg={3} className="g-4 tabs">
                 {teams.map((team, idx) => (
                     <Col key={idx}>
-                        <Card bg="light" style={{ width: '18rem' }}>
+                        <Card bg="light">
                             <Card.Img
                                 alt="team-photo"
                                 variant="top"
