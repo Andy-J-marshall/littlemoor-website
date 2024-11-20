@@ -1,5 +1,5 @@
 import { Image } from 'react-bootstrap';
-import logo from '../images/logos/brand-banner-logo.png';
+import logoImg from '../images/logos/brand-banner-logo.png';
 import { config } from '../config';
 
 function Header() {
@@ -11,7 +11,7 @@ function Header() {
             {/* TODO replace with image instead */}
             {/* <Image
                 style={{ height: '200px', width: 'auto' }}
-                src={logo}
+                src={logoImg}
                 fluid
             /> */}
         </div>

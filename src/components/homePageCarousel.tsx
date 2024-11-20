@@ -1,8 +1,8 @@
 import { Nav, Carousel, Image, Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import statsImg from '../images/carousel/carousel-04.png';
-import membershipImg from '../images/carousel/carousel-02.png';
-import eventsImg from '../images/carousel/carousel-03.png';
+import membershipImg from '../images/carousel/carousel-membership.png';
+import teamsImg from '../images/carousel/carousel-teams.png';
+import contactImg from '../images/carousel/carousel-contact.png';
 
 function HomePageCarousel() {
     return (
@@ -18,7 +18,7 @@ function HomePageCarousel() {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <Image src={statsImg} fluid />
+                        <Image src={teamsImg} fluid />
                         <Carousel.Caption>
                             <NavLink className="carousel-link" to="/teams">
                                 <h2>teams</h2>
@@ -26,7 +26,7 @@ function HomePageCarousel() {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <Image src={eventsImg} fluid />
+                        <Image src={contactImg} fluid />
                         <Carousel.Caption>
                             <NavLink to="/contact" className="carousel-link">
                                 <h2>contact</h2>

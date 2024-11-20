@@ -1,6 +1,6 @@
-import joeyLogo from '../images/supporters/joey.png';
-import squeakerLogo from '../images/supporters/squeaker.png';
-import wldLogo from '../images/supporters/west_leeds_dispatch.png';
+import supporter1Img from '../images/supporters/joey.png';
+import supporter2Img from '../images/supporters/squeaker.png';
+import supporter3Img from '../images/supporters/west_leeds_dispatch.png';
 
 function Supporters() {
     return (
@@ -9,21 +9,21 @@ function Supporters() {
             <a target="_blank" href="https://www.joeysportsmassage.co.uk">
                 <img
                     className="supporters-logos"
-                    src={joeyLogo}
+                    src={supporter1Img}
                     alt="support-logo0"
                 />
             </a>
             <a target="_blank" href="http://www.thesqueaker.co.uk">
                 <img
                     className="supporters-logos"
-                    src={squeakerLogo}
+                    src={supporter2Img}
                     alt="support-logo5"
                 />
             </a>
             <a target="_blank" href="https://westleedsdispatch.com">
                 <img
                     className="supporters-logos"
-                    src={wldLogo}
+                    src={supporter3Img}
                     alt="support-logo6"
                 />
             </a>
