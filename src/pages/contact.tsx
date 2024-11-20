@@ -37,8 +37,11 @@ function Contact() {
                 <p>
                     There is a small car park at the front of the club. If the
                     car park is full, there is usually plenty of space on Valley
-                    Road. Note: please do not park in the numbered spaces as
-                    these are reserved for the local residents.
+                    Road.
+                </p>
+                <p>
+                    Note: please do not park in the numbered spaces as these are
+                    reserved for the local residents.
                 </p>
                 <p>
                     There is a bus stop directly outside the club. The club is
