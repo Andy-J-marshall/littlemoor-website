@@ -9,6 +9,7 @@ function News() {
         <div id="news">
             <h1>latest news</h1>
             <Row xs={1} sm={1} md={3} lg={3} className="g-4 align-items-start">
+                {/* TODO change */}
                 <NewsItem
                     title="VOLUNTEERING"
                     openingLine="Volunteer days are planned to help keep the club clean and tidy over winter."

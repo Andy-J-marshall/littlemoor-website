@@ -71,6 +71,8 @@ function TeamInfo() {
         window.scrollTo(0, 0);
     });
 
+    // TODO simplify this?
+
     return (
         <div id="team-info" className="page-component center">
             <h1>team information</h1>

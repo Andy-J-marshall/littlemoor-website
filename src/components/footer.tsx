@@ -20,7 +20,7 @@ function Footer() {
                     <img className="logos" src={email} alt="Email link" />
                 </a>
             </div>
-            <p className="footnote">Copyright ©{currentYear} AJM</p>
+            <p className="footnote">Copyright ©{currentYear} Andrew Marshall</p>
         </div>
     );
 }

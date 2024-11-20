@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import statsImg from '../images/carousel/carousel-04.png';
 import membershipImg from '../images/carousel/carousel-02.png';
 import eventsImg from '../images/carousel/carousel-03.png';
-import { config } from '../config';
 
 function HomePageCarousel() {
     return (
@@ -29,13 +28,9 @@ function HomePageCarousel() {
                     <Carousel.Item>
                         <Image src={eventsImg} fluid />
                         <Carousel.Caption>
-                            <a
-                                target="_blank"
-                                className="carousel-link"
-                                href={`${config.socialLinks.facebookUrl}/events`}
-                            >
-                                <h2>events</h2>
-                            </a>
+                            <NavLink to="/contact" className="carousel-link">
+                                <h2>contact</h2>
+                            </NavLink>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
