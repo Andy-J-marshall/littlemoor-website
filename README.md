@@ -4,11 +4,15 @@ Welcome to the Littlemoor Sports and Social Club website.
 
 ## Pre-requisites
 
--   Install git
--   Install NodeJS
--   Install GH CLI:
-    -   `brew install gh`
-    -   Run: `gh auth login` and login to GitHub
+Install:
+
+-   git
+-   NodeJS
+
+GitHub repo setup:
+
+-   `settings/actions` - grant Workflow permissions read/write access, and optionally allow GH Actions to create PRs.
+-   `settings/pages` - add the custom domain here.
 
 ## Running Locally
 
