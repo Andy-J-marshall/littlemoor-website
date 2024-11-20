@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { config } from '../config';
+import socialBowlingImg from '../images/websiteImages/social-bowling2.png';
 
 const { membershipPrice } = config;
 
@@ -30,6 +31,7 @@ function Membership() {
                 </a>{' '}
                 or speak to a member if you are interested in joining.
             </p>
+            <img style={{ width: '98%' }} src={socialBowlingImg}></img>
         </div>
     );
 }
