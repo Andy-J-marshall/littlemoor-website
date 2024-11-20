@@ -1,7 +1,7 @@
 import { Row } from 'react-bootstrap';
-import agmImage from '../images/news/agm-2024.png';
-import ladiesTeamImage from '../images/news/ladies-team.png';
-import volunteeringImage from '../images/news/volunteering.png';
+import agmImage from '../images/news/news1.png';
+import ladiesTeamImage from '../images/news/news2.png';
+import volunteeringImage from '../images/news/news3.png';
 import NewsItem from './newsItem';
 
 function News() {

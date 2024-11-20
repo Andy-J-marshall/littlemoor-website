@@ -21,7 +21,7 @@ function HomePageCarousel() {
                         <Image src={statsImg} fluid />
                         <Carousel.Caption>
                             <NavLink className="carousel-link" to="/teams">
-                                <h2>team information</h2>
+                                <h2>teams</h2>
                             </NavLink>
                         </Carousel.Caption>
                     </Carousel.Item>

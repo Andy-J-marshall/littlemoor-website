@@ -30,15 +30,6 @@ function Navigation() {
                     >
                         <Nav.Item
                             as={Link}
-                            to="/teams"
-                            className="navigation link"
-                        >
-                            <Nav.Link as="div" href="/teams" eventKey="/teams">
-                                TEAM INFORMATION
-                            </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item
-                            as={Link}
                             to="/membership"
                             className="navigation link"
                         >
@@ -48,6 +39,15 @@ function Navigation() {
                                 eventKey="/membership"
                             >
                                 MEMBERSHIP
+                            </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item
+                            as={Link}
+                            to="/teams"
+                            className="navigation link"
+                        >
+                            <Nav.Link as="div" href="/teams" eventKey="/teams">
+                                TEAMS
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item
