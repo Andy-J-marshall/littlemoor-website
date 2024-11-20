@@ -1,0 +1,24 @@
+name: Deploy
+on:
+    push:
+        branches: ['master', 'main']
+    workflow_dispatch:
+
+jobs:
+    Deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository code
+              uses: actions/checkout@master
+            - name: Install node
+              uses: actions/setup-node@v3
+              with:
+                  node-version: '20.x'
+            - name: Install dependencies and build
+              run: |
+                  npm ci
+                  npm run build
+            - name: Deploy
+              uses: JamesIves/github-pages-deploy-action@v4
+              with:
+                  folder: dist

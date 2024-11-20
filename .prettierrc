@@ -1,0 +1,14 @@
+{
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "tabWidth": 4,
+    "overrides": [
+        {
+            "files": [
+                "*.ts",
+                "*.tsx"
+            ],
+            "options": {}
+        }
+    ]
+}
