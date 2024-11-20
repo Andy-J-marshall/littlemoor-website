@@ -24,6 +24,7 @@ function Membership() {
                 Fees apply to anyone over 16; children are welcome but must be
                 accompanied by an adult member.
             </p>
+            <p>The clubhouse has a bar, 2 full size snooker tables and a darts board</p>
             <p>
                 Please{' '}
                 <a className="link" href="/#/contact">
