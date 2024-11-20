@@ -4,8 +4,6 @@ on:
         branches: ['master', 'main']
     workflow_dispatch:
 
-# TODO this is failing
-
 jobs:
     Deploy:
         runs-on: ubuntu-latest
