@@ -36,9 +36,8 @@ The news items will appear in the order they are in the `news.json` file.
 -   Title - The title of the news item
 -   openingText - the first line of the news item
 -   mainText - the main body of the news item
--   image - the file name of the image to display with the news item
 
-The images can be updated but they need to be named exactly the same as they already are in the `src/images/news` directory. The images will be associated with the news item based on the order they are in the `news.json` file i.e. the first news item in the JSON file 1 will have image 1, the second news item will have image 2 etc.
+The images can be updated but they need to be named exactly the same as they already are in the `src/images/news` directory. The images will be associated with the news item based on the order they are in the `news.json` file i.e. the first news item in the JSON file 1 will use `news-image1.png`, the second news item will use `news-image2.png` etc.
 
 # Running the website locally
 
