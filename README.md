@@ -2,6 +2,7 @@
 
 <!-- TODO might want to create a sanity test to check it loads before committing to main -->
 <!-- Turn on protection to main branch? -->
+<!-- how to create a PR? -->
 
 Welcome to the Littlemoor Sports and Social Club website.
 
