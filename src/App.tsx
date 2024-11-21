@@ -13,7 +13,7 @@ function App() {
     useEffect(() => {
         WebFont.load({
             google: {
-                families: ['Arial', 'Arial Black', 'Arial Bold', 'Arial Italic'],
+                families: ['Signika'],
             },
         });
     }, []);
