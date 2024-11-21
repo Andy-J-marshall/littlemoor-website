@@ -1,5 +1,8 @@
 # Littlemoor Sports and Social Club
 
+<!-- TODO might want to create a sanity test to check it loads before committing to main -->
+<!-- Turn on protection to main branch? -->
+
 Welcome to the Littlemoor Sports and Social Club website.
 
 # How to update the website
@@ -49,6 +52,7 @@ Check the GitHub repository's setup:
 
 -   `settings/actions` - grant Workflow permissions read/write access, and optionally allow GH Actions to create PRs.
 -   `settings/pages` - add the custom domain here.
+-   Turn on protection to main branch to prevent direct commits.
 
 ## Running Locally
 
