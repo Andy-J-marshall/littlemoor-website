@@ -1,11 +1,11 @@
 import { useEffect } from 'react';
 import { Card, Button, Row, Col } from 'react-bootstrap';
-import monImg from '../images/websiteImages/mon-team.png';
-import tuesVetsImg from '../images/websiteImages/tuesVets-team.png';
-import thurVetsImg from '../images/websiteImages/thursVets-team.png';
-import satImg from '../images/websiteImages/sat-team.png';
-import wedImg from '../images/websiteImages/wed-team.png';
-import wedEveningImg from '../images/websiteImages/wedPairs-team.png';
+import monImg from '../images/carousel/carousel-teams.png';
+import tuesVetsImg from '../images/carousel/carousel-teams.png';
+import thurVetsImg from '../images/carousel/carousel-teams.png';
+import satImg from '../images/carousel/carousel-teams.png';
+import wedImg from '../images/carousel/carousel-teams.png';
+import wedEveningImg from '../images/carousel/carousel-teams.png';
 
 const teams = [
     {

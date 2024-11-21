@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { config } from '../config';
-import membershipImg from '../images/websiteImages/membership.png';
+import membershipImg from '../images/carousel/carousel-membership.png';
 
 function Membership() {
     useEffect(() => {
