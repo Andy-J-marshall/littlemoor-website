@@ -84,7 +84,7 @@ Check the GitHub repository's setup:
 
 Update `background-color` and `color` in `src/app.css` and anywhere else in the code where the colour is used e.g. `teamInfo.tsx`.
 
-Update the `font-family` in `src/app.css`.
+Update the `font-family` in `src/app.css`. Also load the font family in `app.tsx`
 
 Check the styling looks sensible for each page after changes have been finalised.
 
