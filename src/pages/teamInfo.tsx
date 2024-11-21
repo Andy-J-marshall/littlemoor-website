@@ -50,6 +50,7 @@ function TeamInfo() {
         window.scrollTo(0, 0);
     });
 
+    // TODO improve images
     return (
         <div id="team-info" className="page-component center">
             <h1>TEAMS</h1>
@@ -65,7 +66,7 @@ function TeamInfo() {
                             <Card.Body>
                                 <Card.Title>{team.name}</Card.Title>
                                 <Button
-                                    style={{ backgroundColor: '#162645' }} // TODO - change everywhere
+                                    style={{ backgroundColor: '#162645' }}
                                     href={team.link}
                                     target="_blank"
                                 >

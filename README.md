@@ -1,10 +1,7 @@
 # Littlemoor Sports and Social Club
 
 <!-- TODO might want to create a sanity test to check it loads before committing to main -->
-<!-- Turn on protection to main branch? -->
 <!-- how to create a PR? -->
-<!-- TODO explain how to change it for your website? -->
-<!-- explain to remove the following from vite.config: base: '/littlemoor-website/' -->
 
 Welcome to the Littlemoor Sports and Social Club website.
 
@@ -50,12 +47,6 @@ Install:
 -   git
 -   NodeJS
 
-Check the GitHub repository's setup:
-
--   `settings/actions` - grant Workflow permissions read/write access, and optionally allow GH Actions to create PRs.
--   `settings/pages` - add the custom domain here.
--   Turn on protection to main branch to prevent direct commits.
-
 ## Running Locally
 
 To run the app locally, run the following on the command line:
@@ -75,3 +66,58 @@ However, if you need to deploy from your local machine, you can run the followin
 -   `npm run build-deploy`
 
 There is also a GitHub action in `.github/workflows` that will automatically deploy the website when changes are pushed to the `main` branch.
+
+# How to use the repo as a template
+
+### GitHub repo settings
+
+Check the GitHub repository's setup:
+
+-   Make the repo public
+-   `settings/actions` - grant Workflow permissions read/write access, and optionally allow GH Actions to create PRs
+-   `settings/pages` - add the custom domain here
+-   Turn on protection to main branch to prevent direct commits
+
+<!-- TODO Turn on protection to main branch? -->
+
+### Styles
+
+Update `background-color` and `color` in `src/app.css` and anywhere else in the code where the colour is used e.g. `teamInfo.tsx`.
+
+Update the `font-family` in `src/app.css`.
+
+### Domain
+
+Update `public` folder:
+
+-   CNAME
+-   favicon.ico
+-   short_name and name in `manifest.json`
+
+title (x2), description, url, image in `index.html`
+
+If you have no custom, then set the following property in `vite.config.js` for `defineConfig()`: `base: '/{repo-name}/'`
+
+### Images
+
+Update all images in the `/images` folder
+
+### Code
+
+Update `homepage` in `package.json`
+
+Update `src/config.ts` e.g.
+
+-   social links
+-   team names
+-   membership price
+
+Update `contact.tsx` page with correct information.
+
+Update `membership.tsx` page.
+
+Update news items in `news.json`.
+
+Update list of supporters in `supporters.tsx`
+
+Update the team information in `teamInfo` component, and adjust the display

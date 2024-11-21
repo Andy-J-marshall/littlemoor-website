@@ -7,6 +7,7 @@ function Membership() {
         window.scrollTo(0, 0);
     });
 
+    // TODO improve image
     return (
         <div id="members" className="center page-component">
             <h1>MEMBERSHIP</h1>
