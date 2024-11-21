@@ -65,7 +65,7 @@ function TeamInfo() {
                             <Card.Body>
                                 <Card.Title>{team.name}</Card.Title>
                                 <Button
-                                    style={{ backgroundColor: '#1d3f92' }} // TODO - change everywhere
+                                    style={{ backgroundColor: '#291f31' }} // TODO - change everywhere
                                     href={team.link}
                                     target="_blank"
                                 >
