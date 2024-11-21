@@ -65,7 +65,9 @@ The application should be running on: http://localhost:5173
 
 ## Deploy to Github Pages
 
-To deploy your changes to the live website, run the following on the command line:
+You should use the pipeline to deploy to production. When you merge your PR to main the pipeline will automatically deploy.
+
+However, if you need to deploy from your local machine, you can run the following on the command line:
 
 -   `npm i`
 -   `npm run build-deploy`
