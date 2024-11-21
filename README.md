@@ -86,6 +86,8 @@ Update `background-color` and `color` in `src/app.css` and anywhere else in the 
 
 Update the `font-family` in `src/app.css`.
 
+Check the styling looks sensible for each page after changes have been finalised.
+
 ### Domain
 
 Update `public` folder:
@@ -96,7 +98,7 @@ Update `public` folder:
 
 title (x2), description, url, image in `index.html`
 
-If you have no custom, then set the following property in `vite.config.js` for `defineConfig()`: `base: '/{repo-name}/'`
+If you have no custom domain, then set the following property in `vite.config.js` for `defineConfig()`: `base: '/{repo-name}/'`
 
 <!-- TODO explain how to buy and configure a custom domain -->
 
@@ -104,7 +106,9 @@ If you have no custom, then set the following property in `vite.config.js` for `
 
 ### Images
 
-Update all images in the `/images` folder
+Update all images in the `/images` folder.
+
+Check the images have the right dimensions once they have been updated.
 
 ### Code
 
@@ -122,6 +126,6 @@ Update `membership.tsx` page.
 
 Update news items in `news.json`.
 
-Update list of supporters in `supporters.tsx`
+Update list of supporters in `supporters.tsx, including links and logos.
 
-Update the team information in `teamInfo` component, and adjust the display
+Update the team information in `teamInfo` component, and adjust the display if required (e.g. number per row)
