@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Button, Card, Collapse, Col, Row } from 'react-bootstrap';
-import news1Img from '../clubNews/news-image1.png';
-import news2Img from '../clubNews/news-image2.png';
-import news3Img from '../clubNews/news-image3.png';
-import news from '../clubNews/news.json';
+import news1Img from '../images/news/news-image1.png';
+import news2Img from '../images/news/news-image2.png';
+import news3Img from '../images/news/news-image3.png';
+import news from '../news.json';
 
 function News() {
     const [expandNews1, setExpandNews1] = useState(false);
