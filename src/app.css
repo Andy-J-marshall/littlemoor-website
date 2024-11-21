@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'arial-bold';
+    font-family: 'signika';
 }
 
 h1,
@@ -49,7 +49,7 @@ h5 {
 #root {
     background-color: #ffffff;
     font-size: 19px;
-    font-family: 'arial';
+    font-family: 'signika';
     margin: auto;
     text-align: center;
 }
