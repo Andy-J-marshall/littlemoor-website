@@ -1,20 +1,17 @@
 [
     {
-        "image": "news-image1.png",
-        "title": "BOWLS MEETING",
-        "openingLine": "There is a bowls meeting on the 23rd November at 2pm.",
-        "mainText": "The meeting will be held at the club and all members are encouraged to attend. The meeting will discuss the the teams for the upcoming season and to choose the captains."
-    },
-    {
-        "image": "news-image2.png",
         "title": "SPONSORSHIP PACKAGES",
         "openingLine": "Sponsorship packages are available for the 2025 season.",
         "mainText": "If you are interested then please contact a member of the club for more information."
     },
     {
-        "image": "news-image3.png",
         "title": "UPCOMING EVENTS",
         "openingLine": "The Presentation night and Christmas party have been booked.",
         "mainText": "The Christmas party has been booked for the 13th December, and Presentation night will be on the 1st February (both starting at 6pm)"
+    },
+    {
+        "title": "BOWLS MEETING",
+        "openingLine": "There is a bowls meeting on the 23rd November at 2pm.",
+        "mainText": "The meeting will be held at the club and all members are encouraged to attend. The meeting will discuss the the teams for the upcoming season and to choose the captains."
     }
 ]
