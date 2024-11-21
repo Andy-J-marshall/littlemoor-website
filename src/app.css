@@ -1,3 +1,19 @@
+main {
+    flex: 1;
+    overflow: auto;
+}
+
+body {
+    background-color: #ffffff;
+    margin: auto;
+    width: 100%;
+}
+
+ul {
+    text-align: left;
+    list-style: inside;
+}
+
 th,
 h1,
 h2,
@@ -17,32 +33,6 @@ h3,
 h4,
 h5 {
     padding: 0.6rem 0 0 0;
-}
-
-body {
-    background-color: #ffffff;
-    margin: auto;
-    width: 100%;
-}
-
-ul {
-    text-align: left;
-    list-style: inside;
-}
-
-.carousel-item img {
-    width: 100%;
-    height: auto;
-}
-
-.navigation {
-    padding: 0 1rem 0 0;
-}
-
-.page-component {
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-    width: 85%;
 }
 
 #footer {
@@ -74,6 +64,21 @@ ul {
     margin-bottom: 0.7rem;
     background-color: #1d3f92;
     color: #ffffff;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.navigation {
+    padding: 0 1rem 0 0;
+}
+
+.page-component {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    width: 85%;
 }
 
 .carousel-link {
@@ -134,7 +139,15 @@ ul {
     margin-right: 0.5rem;
 }
 
-main {
-    flex: 1;
-    overflow: auto;
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    flex-grow: 1;
+}
+
+.mt-auto {
+    margin-top: auto;
 }
