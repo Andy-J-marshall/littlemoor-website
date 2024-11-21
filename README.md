@@ -3,6 +3,8 @@
 <!-- TODO might want to create a sanity test to check it loads before committing to main -->
 <!-- Turn on protection to main branch? -->
 <!-- how to create a PR? -->
+<!-- TODO explain how to change it for your website? -->
+<!-- explain to remove the following from vite.config: base: '/littlemoor-website/' -->
 
 Welcome to the Littlemoor Sports and Social Club website.
 
