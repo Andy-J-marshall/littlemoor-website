@@ -57,7 +57,7 @@ function News() {
 
     return (
         <div id="news">
-            <h1>latest news</h1>
+            <h1>LATEST NEWS</h1>
             <Row xs={1} lg={3} className="g-4 align-items-start">
                 {newsItems.map((item, index) => {
                     return (

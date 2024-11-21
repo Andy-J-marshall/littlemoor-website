@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Alegreya SC';
+    font-family: 'arial-black';
 }
 
 h1,
@@ -49,7 +49,7 @@ h5 {
 #root {
     background-color: #ffffff;
     font-size: 19px;
-    font-family: 'Alegreya Sans';
+    font-family: 'arial';
     margin: auto;
     text-align: center;
 }

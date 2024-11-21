@@ -13,7 +13,7 @@ function HomePageCarousel() {
                         <Image src={membershipImg} fluid />
                         <Carousel.Caption>
                             <NavLink to="/membership" className="carousel-link">
-                                <h2>membership</h2>
+                                <h2>MEMBERSHIP</h2>
                             </NavLink>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -21,7 +21,7 @@ function HomePageCarousel() {
                         <Image src={teamsImg} fluid />
                         <Carousel.Caption>
                             <NavLink className="carousel-link" to="/teams">
-                                <h2>teams</h2>
+                                <h2>TEAMS</h2>
                             </NavLink>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -29,7 +29,7 @@ function HomePageCarousel() {
                         <Image src={contactImg} fluid />
                         <Carousel.Caption>
                             <NavLink to="/contact" className="carousel-link">
-                                <h2>contact</h2>
+                                <h2>CONTACT US</h2>
                             </NavLink>
                         </Carousel.Caption>
                     </Carousel.Item>
