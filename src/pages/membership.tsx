@@ -19,11 +19,7 @@ function Membership() {
                 The modern clubhouse has a bar, 2 full size snooker tables and a
                 darts board.
             </p>
-            {/* TODO create css style */}
-            <img
-                style={{ width: '92%', paddingBottom: '2rem' }}
-                src={membershipImg2}
-            ></img>
+            <img className="membership-page-img" src={membershipImg2}></img>
             <p>
                 The membership price is £{config.membershipPrice} per year.
                 Membership is valid per year and runs from 1st January until
@@ -40,10 +36,7 @@ function Membership() {
                 </a>{' '}
                 or speak to a member if you are interested in joining.
             </p>
-            <img
-                style={{ width: '92%', paddingBottom: '2rem' }}
-                src={membershipImg}
-            ></img>
+            <img className="membership-page-img" src={membershipImg}></img>
         </div>
     );
 }

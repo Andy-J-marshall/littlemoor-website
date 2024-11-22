@@ -67,6 +67,11 @@ h5 {
     width: 100%;
 }
 
+.membership-page-img {
+    width: 92%;
+    padding-bottom: 2rem;
+}
+
 .carousel-item img {
     width: 100%;
     height: auto;
