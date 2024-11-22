@@ -1,13 +1,12 @@
 import { useEffect } from 'react';
 import { config } from '../config';
-import membershipImg from '../images/carousel/carousel-membership.png';
+import membershipImg from '../images/membership/membership.png';
 
 function Membership() {
     useEffect(() => {
         window.scrollTo(0, 0);
     });
 
-    // TODO improve image
     return (
         <div id="members" className="center page-component">
             <h1>MEMBERSHIP</h1>
@@ -20,6 +19,11 @@ function Membership() {
                 Membership is valid per year and runs from 1st January until
                 31st December.
             </p>
+            {/* TODO create css style */}
+            <img
+                style={{ width: '95%', paddingBottom: '2rem' }}
+                src={membershipImg}
+            ></img>
             <p>
                 Fees apply to anyone over 16; children are welcome but must be
                 accompanied by an adult member.
@@ -35,7 +39,6 @@ function Membership() {
                 </a>{' '}
                 or speak to a member if you are interested in joining.
             </p>
-            <img style={{ width: '98%' }} src={membershipImg}></img>
         </div>
     );
 }

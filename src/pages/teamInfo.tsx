@@ -1,47 +1,42 @@
 import { useEffect } from 'react';
 import { Card, Button, Row, Col } from 'react-bootstrap';
-import monImg from '../images/carousel/carousel-teams.png';
-import tuesVetsImg from '../images/carousel/carousel-teams.png';
-import thurVetsImg from '../images/carousel/carousel-teams.png';
-import satImg from '../images/carousel/carousel-teams.png';
-import wedImg from '../images/carousel/carousel-teams.png';
-import wedEveningImg from '../images/carousel/carousel-teams.png';
+import teamImg from '../images/membership/teams.png';
 
 const teams = [
     {
         name: 'Monday AireWharfe',
         link: 'https://bowlsnet.uk/AW-Mon',
-        img: monImg,
+        img: teamImg,
     },
     {
         name: 'Monday Bradford',
         link: 'https://bowlsnet.uk/Bradford-Mon',
-        img: monImg,
+        img: teamImg,
     },
     {
         name: 'Mirfield',
         link: 'https://bowlsnet.uk/Mirfield',
-        img: tuesVetsImg,
+        img: teamImg,
     },
     {
         name: 'Half Holiday Bradford',
         link: 'https://bowlsnet.uk/Bradford-HalfHol',
-        img: wedImg,
+        img: teamImg,
     },
     {
         name: 'Spen Valley',
         link: 'https://bowlsnet.uk/WestRiding',
-        img: wedEveningImg,
+        img: teamImg,
     },
     {
         name: 'Thursday Vets Bradford',
         link: 'https://bowlsnet.uk/Bradford-Vets',
-        img: thurVetsImg,
+        img: teamImg,
     },
     {
         name: 'Saturday Bradford',
         link: 'https://bowlsnet.uk/Bradford-Sat',
-        img: satImg,
+        img: teamImg,
     },
 ];
 
