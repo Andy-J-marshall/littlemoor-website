@@ -41,6 +41,7 @@ function Membership() {
                 Read more about the{' '}
                 <a
                     target="_blank"
+                    className="link"
                     href="https://sway.cloud.microsoft/Tz6DJWwN2m4J1kds"
                 >
                     benefits of crown green bowling
