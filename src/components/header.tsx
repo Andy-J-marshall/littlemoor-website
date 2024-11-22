@@ -5,7 +5,7 @@ function Header() {
     return (
         <div id="header">
             <Image
-                style={{ height: '175px', width: 'auto' }}
+                style={{ height: '160px', width: 'auto' }}
                 src={logoImg}
                 fluid
             />
