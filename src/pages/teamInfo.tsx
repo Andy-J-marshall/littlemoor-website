@@ -47,7 +47,7 @@ function TeamInfo() {
 
     // TODO improve images
     return (
-        <div id="team-info" className="page-component center">
+        <div id="team-info-page" className="page-component center">
             <h1>TEAMS</h1>
             <Row xs={1} sm={1} md={2} lg={3} className="g-4 tabs">
                 {teams.map((team, idx) => (

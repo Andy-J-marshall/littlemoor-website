@@ -1,7 +1,5 @@
 # Littlemoor Sports and Social Club
 
-<!-- TODO might want to create a sanity test to check it loads before committing to main -->
-
 Welcome to the Littlemoor Sports and Social Club website.
 
 ## Setting up your development environment
@@ -29,6 +27,13 @@ Run the following on the command line:
 -   `npm run start`
 
 Visit http://localhost:5173 in your browser to see the website.
+
+### Running the tests
+
+The tests can be triggered by running the following on the command line:
+
+-   `npm i`
+-   `npm run test`
 
 ### Deploying the website
 
@@ -149,3 +154,7 @@ Update news items in `news.json`.
 Update list of supporters in `supporters.tsx, including links and logos.
 
 Update the team information in `teamInfo` component, and adjust the display if required (e.g. number per row)
+
+### Tests
+
+Update the expected values (e.g. title) in the tests in `/tests` folder.

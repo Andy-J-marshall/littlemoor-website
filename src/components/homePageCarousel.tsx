@@ -6,7 +6,7 @@ import contactImg from '../images/carousel/carousel-contact.png';
 
 function HomePageCarousel() {
     return (
-        <Container fluid>
+        <Container id='carousel' fluid>
             <Nav defaultActiveKey="/home">
                 <Carousel fade>
                     <Carousel.Item>

@@ -4,7 +4,7 @@ import supporter3Img from '../images/supporters/levelsAbove.png';
 
 function Supporters() {
     return (
-        <div id="socials">
+        <div id="supporters">
             <h1>SUPPORTERS</h1>
             <a target="_blank" href="https://www.arlafoods.co.uk">
                 <img
