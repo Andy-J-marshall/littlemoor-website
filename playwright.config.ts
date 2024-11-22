@@ -25,6 +25,7 @@ export default defineConfig({
     ],
 
     /* Run your local dev server before starting the tests */
+    // TODO fix on CI
     webServer: {
         command: 'npm run start',
         url: 'http://127.0.0.1:5173',
