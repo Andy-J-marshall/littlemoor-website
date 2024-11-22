@@ -13,7 +13,7 @@ function App() {
     useEffect(() => {
         WebFont.load({
             google: {
-                families: ['Paytone One'],
+                families: ['Signika', 'Paytone One'],
             },
         });
     }, []);
