@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { config } from '../config';
 import membershipImg from '../images/membership/membership.png';
+import membershipImg2 from '../images/membership/membership2.png';
 
 function Membership() {
     useEffect(() => {
@@ -15,22 +16,22 @@ function Membership() {
                 experience level.
             </p>
             <p>
+                The modern clubhouse has a bar, 2 full size snooker tables and a
+                darts board.
+            </p>
+            {/* TODO create css style */}
+            <img
+                style={{ width: '92%', paddingBottom: '2rem' }}
+                src={membershipImg2}
+            ></img>
+            <p>
                 The membership price is £{config.membershipPrice} per year.
                 Membership is valid per year and runs from 1st January until
                 31st December.
             </p>
-            {/* TODO create css style */}
-            <img
-                style={{ width: '95%', paddingBottom: '2rem' }}
-                src={membershipImg}
-            ></img>
             <p>
                 Fees apply to anyone over 16; children are welcome but must be
                 accompanied by an adult member.
-            </p>
-            <p>
-                The modern clubhouse has a bar, 2 full size snooker tables and a
-                darts board.
             </p>
             <p>
                 Please{' '}
@@ -39,6 +40,10 @@ function Membership() {
                 </a>{' '}
                 or speak to a member if you are interested in joining.
             </p>
+            <img
+                style={{ width: '92%', paddingBottom: '2rem' }}
+                src={membershipImg}
+            ></img>
         </div>
     );
 }
