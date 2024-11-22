@@ -37,6 +37,16 @@ function Membership() {
                 or speak to a member if you are interested in joining.
             </p>
             <img className="membership-page-img" src={membershipImg}></img>
+            <p>
+                Read more about the{' '}
+                <a
+                    target="_blank"
+                    href="https://sway.cloud.microsoft/Tz6DJWwN2m4J1kds"
+                >
+                    benefits of crown green bowling
+                </a>{' '}
+                here.
+            </p>
         </div>
     );
 }
