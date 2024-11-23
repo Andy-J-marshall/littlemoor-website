@@ -103,8 +103,6 @@ Check the GitHub repository's setup:
 -   `settings/pages` - add the custom domain here
 -   Turn on protection to main branch to prevent direct commits
 
-<!-- TODO Turn on protection to main branch? -->
-
 ### Styles
 
 Update `background-color` and `color` in `src/app.css` and anywhere else in the code where the colour is used e.g. `teamInfo.tsx`.
