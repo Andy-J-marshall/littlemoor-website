@@ -124,6 +124,7 @@ title (x2), description, url, image in `index.html`
 If you have no custom domain, then set the following property in `vite.config.js` for `defineConfig()`: `base: '/{repo-name}/'`
 
 <!-- TODO explain how to buy and configure a custom domain -->
+
 <!-- TODO create a separate repo and set up a template -->
 
 ### Images
