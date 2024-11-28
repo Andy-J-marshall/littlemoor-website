@@ -1,10 +1,12 @@
 import { test, expect } from '@playwright/test';
 
+const clubName = 'Littlemoor Sports and Social Club';
+
 test.describe('Each page loads', () => {
     test('Home', async ({ page }) => {
         await page.goto('');
 
-        await expect(page).toHaveTitle(/Littlemoor Sports and Social Club/);
+        await expect(page).toHaveTitle(`${clubName}`);
         await expect(page.locator('#home-page')).toBeVisible();
         await expect(page.locator('#navbar')).toBeVisible();
         await expect(page.locator('#header')).toBeVisible();

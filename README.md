@@ -45,15 +45,15 @@ The config for this GitHub action can be found in the in `.github/workflows`.
 
 Below is information on how to update the content of the website by using pull requests (PRs) in GitHub.
 
-## Adding news stories
+### Adding news stories
 
 You can change the news item by following the below steps:
 
-1. Navigate to the `src` directory in the repository.
-2. Open the `news.json` file.
-3. Make changes to the file as required.
-4. Commit the changes.
-5. Optional: to change the images associated with the news item, upload the new image to the `src/images/news` directory, keeping the same file name as the original image.
+1. Navigate to the `src` directory in the repository
+2. Open the `news.json` file
+3. Make changes to the file as required
+4. Commit the changes
+5. Optional: to change the images associated with the news item, upload the new image to the `src/images/news` directory, keeping the same file name as the original image
 
 #### Additional information
 
@@ -65,9 +65,15 @@ The news items will appear in the order they are in the `news.json` file.
 
 The images can be updated but they need to be named exactly the same as they already are in the `src/images/news` directory. The images will be associated with the news item based on the order they are in the `news.json` file i.e. the first news item in the JSON file 1 will use `news-image1.png`, the second news item will use `news-image2.png` etc.
 
+### Creating a new page
+
+1. Create a new react component in the `src/pages` directory.
+2. Import this component in `src/app.tsx` and add a new route to the Router component.
+3. Add a new `Nav.Item` to the page in the src`/components/navigation.tsx` file. The endpoint should match the route you added in step 2.
+
 ### Creating Pull Requests (PRs) in GitHub
 
-To make changes to the repository, you will need to clone the repo locally and create a pull request.
+To make changes to the repository, you will need to clone the repo locally and create a pull request
 
 1. **Clone the repository**: Clone the forked repository to your local machine using the command:
     ```sh
@@ -77,7 +83,8 @@ To make changes to the repository, you will need to clone the repo locally and c
     ```sh
     git checkout -b your-branch-name
     ```
-3. **Make your changes**: Make the necessary changes to the codebase.
+3. **Make your changes**: Make the necessary changes to the codebase
+
 4. **Commit your changes**: Stage and commit your changes with a meaningful commit message:
     ```sh
     git add .
@@ -87,16 +94,19 @@ To make changes to the repository, you will need to clone the repo locally and c
     ```sh
     git push origin your-branch-name
     ```
-6. **Create a pull request**: Go to the original repository on GitHub, and you should see a prompt to create a pull request from your recently pushed branch. Click "Compare & pull request".
-7. **Submit the pull request**: Provide a title and description for your pull request, then click "Create pull request".
+6. **Create a pull request**: Go to the original repository on GitHub, and you should see a prompt to create a pull request from your recently pushed branch. Click "Compare & pull request"
 
-8. **Merge the pull request**: Once the pull request has been reviewed and merged, the changes will be automatically deployed to the website.
+7. **Submit the pull request**: Provide a title and description for your pull request, then click "Create pull request"
+
+8. **Merge the pull request**: Once the pull request has been reviewed and merged, the changes will be automatically deployed to the website
 
 # Using the repo as a template
 
 ### GitHub repo settings
 
-Check the GitHub repository's setup:
+Create a new repository and use this repository as a template.
+
+Check your new GitHub repository's settings:
 
 -   Make the repo public
 -   `settings/actions` - grant Workflow permissions read/write access, and optionally allow GH Actions to create PRs
@@ -105,53 +115,55 @@ Check the GitHub repository's setup:
 
 ### Styles
 
-Update `background-color` and `color` in `src/app.css` and anywhere else in the code where the colour is used e.g. `teamInfo.tsx`.
+1. Update `background-color` and `color` in `src/app.css` and anywhere else in the code where the colour is used e.g. `teamInfo.tsx`
 
-Update the `font-family` in `src/app.css`. Also load the font family in `app.tsx`
+2. Update the `font-family` in `src/app.css`. Also load the font family using WebFont loader in `app.tsx`
 
-Check the styling looks sensible for each page after changes have been finalised.
+3. Check the styling looks sensible for each page after changes have been finalised
 
 ### Domain
 
-Update `public` folder:
+1. Update the files in the `public` directory:
 
--   CNAME
--   favicon.ico
--   short_name and name in `manifest.json`
+    - `CNAME` (if you have no custom domain, then set the the Github pages URL i.e. `https://{username}.github.io/{repo-name}/`)
+    - `favicon.ico` to match the club logo
+    - short_name and name in `manifest.json`
 
-title (x2), description, url, image in `index.html`
+2. Update `title`, `og:url`, `og:image`, `og:description`, and `og.title` in `index.html`. The `og:image` needs to use the the URL of the image you want to use, and can be found by right clicking on a website image and selecting 'Copy image address'.
 
-If you have no custom domain, then set the following property in `vite.config.js` for `defineConfig()`: `base: '/{repo-name}/'`
+3. If you have no custom domain, then set the following property in `vite.config.js` for `defineConfig()`: `base: '/{repo-name}/'`
 
 <!-- TODO explain how to buy and configure a custom domain -->
 
-<!-- TODO create a separate repo and set up a template -->
-
 ### Images
 
-Update all images in the `/images` folder.
+1. Update all images in the `/images` folder
 
-Check the images have the right dimensions once they have been updated.
+2. Check the images have the right dimensions once they have been updated
 
 ### Code
 
-Update `homepage` in `package.json`
+1. Update the folder name to match the repository name
 
-Update `src/config.ts` e.g.
+2. Update the `README` with the correct club name
 
--   social links
--   team names
--   membership price
+3. Update `homepage` in `package.json`
 
-Update `contact.tsx` page with correct information.
+4. Update `src/config.ts` e.g.
 
-Update `membership.tsx` page.
+    - social links
+    - team names
+    - membership price
 
-Update news items in `news.json`.
+5. Update `contact.tsx` page with correct information and links
 
-Update list of supporters in `supporters.tsx, including links and logos.
+6. Update `membership.tsx` page
 
-Update the team information in `teamInfo` component, and adjust the display if required (e.g. number per row)
+7. Update news items in `news.json`
+
+8. Update list of supporters in `supporters.tsx, including links and logos
+
+9. Update the team information and photos in the `teamInfo` component, and adjust the display if required (e.g. number per row)
 
 ### Tests
 
