@@ -15,7 +15,7 @@ function Supporters() {
             </a>
             <a
                 target="_blank"
-                href="https://www.easyfundraising.org.uk/causes/littlemoor-sports-and-social-club"
+                href="https://www.easyfundraising.org.uk/support-a-good-cause/step-1/?char=362452&invite=7sk19t&referral-campaign=s2s&utm_campaign=web-referral"
             >
                 <img
                     className="supporters-logos"
