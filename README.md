@@ -133,6 +133,11 @@ Check your new GitHub repository's settings:
 
 3. If you have no custom domain, then set the following property in `vite.config.js` for `defineConfig()`: `base: '/{repo-name}/'`
 
+4. Configure the custom domain in the repository settings
+
+    - Go to the GitHub Pages section in repository settings
+    - Add the custom domain
+
 <!-- TODO explain how to buy and configure a custom domain -->
 
 ### Images
