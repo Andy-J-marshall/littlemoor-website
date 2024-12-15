@@ -125,7 +125,7 @@ Check your new GitHub repository's settings:
 
 1. Update the files in the `public` directory:
 
-    - `CNAME` (if you have no custom domain, then set the the Github pages URL i.e. `https://{username}.github.io/{repo-name}/`)
+    - `CNAME` e.g. `littlemoorsportsandsocialclub.co.uk` (if you have no custom domain, then set the the Github pages URL i.e. `https://{username}.github.io/{repo-name}`)
     - `favicon.ico` to match the club logo
     - short_name and name in `manifest.json`
 
@@ -137,6 +137,7 @@ Check your new GitHub repository's settings:
 
     - Go to the GitHub Pages section in repository settings
     - Add the custom domain
+    - Make sure Enforce HTTPS is enabled
 
 <!-- TODO explain how to buy and configure a custom domain -->
 
