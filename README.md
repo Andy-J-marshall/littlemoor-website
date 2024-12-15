@@ -139,7 +139,31 @@ Check your new GitHub repository's settings:
     - Add the custom domain
     - Make sure Enforce HTTPS is enabled
 
-<!-- TODO explain how to buy and configure a custom domain -->
+5. Configure the domain provider to point to the GitHub pages URL. For example, for GoDaddy:
+
+-   Go to the My Products page on GoDaddy and find your domain
+-   Click on DNS to manage the DNS settings
+-   Add or update the following DNS records:
+
+    -   `A Record`:
+
+    ```
+        Host: @
+        Points to: 185.199.108.153
+        TTL: 600 seconds
+    ```
+
+    -   `CNAME Record`:
+
+    ```
+    Host: www
+    Points to: your-username.github.io
+    TTL: 600 seconds
+    ```
+
+-   If a placeholder site has already been published, you will need to unpublish it before the new site can be published.
+
+Navigating to the domain should now so the website. If it doesn't, try clearing the cache or using a different browser.
 
 ### Images
 
@@ -174,3 +198,7 @@ Check your new GitHub repository's settings:
 ### Tests
 
 Update the expected values (e.g. title) in the tests in `/tests` folder.
+
+```
+
+```

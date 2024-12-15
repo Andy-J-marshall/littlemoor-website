@@ -5,7 +5,8 @@ export const config = {
     },
     membershipPrice: '35',
     socialLinks: {
-        facebookUrl: 'https://www.facebook.com/groups/254439544994129/', // TODO want a better link? and IG too?
+        facebookUrl: 'https://www.facebook.com/groups/254439544994129/', // TODO want a better link?
+        // TODO add instagram
         emailUrl: 'mailto:littlemoorsportsandsocialclub@gmail.com',
         googleMapsUrl: 'https://maps.app.goo.gl/p3aGzHLGT2CCj5rv8',
         googleMapsIframeUrl:
