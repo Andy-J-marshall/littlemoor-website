@@ -22,6 +22,7 @@ function Contact() {
                     {emailAddress}
                 </a>
             </p>
+            {/* TODO add instagram */}
             <p>
                 Keep up to date with the latest news via our FaceBook page:
                 <a className="link" target="_blank" href={facebookUrl}>

@@ -46,6 +46,7 @@ function TeamInfo() {
     });
 
     // TODO improve images
+    // TODO mention captains?
     return (
         <div id="team-info-page" className="page-component center">
             <h1>TEAMS</h1>
