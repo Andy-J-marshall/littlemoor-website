@@ -3,7 +3,6 @@ export const config = {
         fullName: 'Littlemoor Sports & Social Club',
         shortName: 'Littlemoor',
     },
-    membershipPrice: '35',
     socialLinks: {
         facebookUrl: 'https://www.facebook.com/groups/254439544994129/', // TODO want a better link?
         // TODO add instagram

@@ -21,11 +21,6 @@ function Membership() {
             </p>
             <img className="membership-page-img" src={membershipImg2}></img>
             <p>
-                The membership price is £{config.membershipPrice} per year.
-                Membership is valid per year and runs from 1st January until
-                31st December.
-            </p>
-            <p>
                 Fees apply to anyone over 16; children are welcome but must be
                 accompanied by an adult member.
             </p>
