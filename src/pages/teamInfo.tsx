@@ -45,6 +45,7 @@ function TeamInfo() {
         window.scrollTo(0, 0);
     });
 
+    // TODO link to the club shop
     // TODO improve images
     // TODO mention captains?
     return (
