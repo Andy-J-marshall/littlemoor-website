@@ -1,4 +1,3 @@
-import supporter1Img from '../images/supporters/arla.png';
 import supporter2Img from '../images/supporters/easyFundraising.png';
 import supporter3Img from '../images/supporters/levelsAbove.png';
 
@@ -6,13 +5,6 @@ function Supporters() {
     return (
         <div id="supporters">
             <h1>SUPPORTERS</h1>
-            <a target="_blank" href="https://www.arlafoods.co.uk">
-                <img
-                    className="supporters-logos"
-                    src={supporter1Img}
-                    alt="support-logo1"
-                />
-            </a>
             <a
                 target="_blank"
                 href="https://www.easyfundraising.org.uk/support-a-good-cause/step-1/?char=362452&invite=7sk19t&referral-campaign=s2s&utm_campaign=web-referral"
