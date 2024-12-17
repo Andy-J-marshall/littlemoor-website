@@ -15,10 +15,6 @@ function Membership() {
                 {config.teamNames.fullName} welcomes new members of any age or
                 experience level.
             </p>
-            <p>
-                The modern clubhouse has a bar, 2 full size snooker tables and a
-                darts board.
-            </p>
             <img className="membership-page-img" src={membershipImg2}></img>
             <p>
                 Fees apply to anyone over 16; children are welcome but must be
