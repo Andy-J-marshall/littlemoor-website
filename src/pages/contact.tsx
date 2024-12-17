@@ -1,9 +1,11 @@
 import { useEffect } from 'react';
-import facebook from '../images/socials/facebook_blue.png';
+import facebookImg from '../images/socials/facebook_blue.png';
+import instagramImg from '../images/socials/facebook_blue.png'; // TODO change to instagram logo
 import email from '../images/socials/email_blue.png';
 import { config } from '../config';
 
-const { facebookUrl, emailUrl, googleMapsIframeUrl } = config.socialLinks;
+const { facebookUrl, instagramUrl, emailUrl, googleMapsIframeUrl } =
+    config.socialLinks;
 
 const emailAddress = emailUrl.split('mailto:')[1];
 
@@ -22,11 +24,21 @@ function Contact() {
                     {emailAddress}
                 </a>
             </p>
-            {/* TODO add instagram */}
             <p>
-                Keep up to date with the latest news via our FaceBook page:
+                Keep up to date with the latest news via our social media pages:
                 <a className="link" target="_blank" href={facebookUrl}>
-                    <img className="logos" src={facebook} alt="Facebook link" />
+                    <img
+                        className="logos"
+                        src={facebookImg}
+                        alt="Facebook link"
+                    />
+                </a>
+                <a className="link" target="_blank" href={instagramUrl}>
+                    <img
+                        className="logos"
+                        src={instagramImg}
+                        alt="Instagram link"
+                    />
                 </a>
             </p>
             <div>
