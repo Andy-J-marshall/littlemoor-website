@@ -18,9 +18,17 @@ function About() {
                 darts board.
             </p>
             <h4>BILLIARDS</h4>
-            <a href='https://bradfordssbilliards.blogspot.com/'>Tuesday League</a>
-            <p>Information about billiards...</p>
-            <a href='https://pudseybilliardsleague.blogspot.com'>Thursday League</a>
+            <p>
+                There is a billiards team that plays on a Tuesday and Thursday
+                evening.
+            </p>
+            <a href="https://bradfordssbilliards.blogspot.com/">
+                Tuesday League
+            </a>
+            <br />
+            <a href="https://pudseybilliardsleague.blogspot.com">
+                Thursday League
+            </a>
         </div>
     );
 }
