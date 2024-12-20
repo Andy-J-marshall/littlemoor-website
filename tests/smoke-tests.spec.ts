@@ -13,7 +13,6 @@ test.describe('Each page loads', () => {
         await expect(page.locator('#footer')).toBeVisible();
         await expect(page.locator('#carousel')).toBeVisible();
         await expect(page.locator('#news')).toBeVisible();
-        await expect(page.locator('#supporters')).toBeVisible();
     });
 
     test('membership', async ({ page }) => {

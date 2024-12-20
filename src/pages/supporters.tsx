@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Image } from 'react-bootstrap';
 import { config } from '../config';
+import emailImg from '../images/socials/email_blue.png';
 import pmhImg from '../images/supporters/pmh_accountancy.png';
 import prestigeImg from '../images/supporters/prestige_plant_room.png';
 import alaskaBlackImg from '../images/supporters/alaska_black.png';
@@ -9,19 +10,23 @@ import ppImage from '../images/supporters/p_and_p_gardening.png';
 import levelsAboveImg from '../images/supporters/levels_above.png';
 import easyFundraisingImg from '../images/supporters/easy_fundraising.png';
 
-function Sponsors() {
+const emailAddress = config.socialLinks.emailUrl.split('mailto:')[1];
+
+function Supporters() {
     useEffect(() => {
         window.scrollTo(0, 0);
     });
 
     return (
-        <div id="sponsors-page" className="center page-component">
-            <h1>SPONSORS</h1>
+        <div id="supporters-page" className="center page-component">
+            <h1>SUPPORTERS</h1>
             <p>
                 If you are interested in a sponsorship package, please contact
-                the Club Development Officer,{' '}
+                Adam Wider, the Club Development Officer:
+                <br />
                 <a className="link" href={config.socialLinks.emailUrl}>
-                    Adam Wider
+                    <img className="logos" src={emailImg} alt="Email link" />
+                    {emailAddress}
                 </a>
             </p>
             <hr />
@@ -138,4 +143,4 @@ function Sponsors() {
     );
 }
 
-export default Sponsors;
+export default Supporters;

@@ -65,11 +65,11 @@ function Navigation() {
                         </Nav.Item>
                         <Nav.Item
                             as={Link}
-                            to="/sponsors"
+                            to="/supporters"
                             className="navigation link"
                         >
-                            <Nav.Link as="div" href="/sponsors" eventKey="/sponsors">
-                                SPONSORS
+                            <Nav.Link as="div" href="/supporters" eventKey="/supporters">
+                                SUPPORTERS
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item

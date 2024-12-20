@@ -9,7 +9,7 @@ import Navigation from './components/navigation';
 import TeamInfo from './pages/teamInfo';
 import './app.css';
 import About from './pages/about';
-import Sponsors from './pages/sponsors';
+import Supporters from './pages/supporters';
 
 function App() {
     useEffect(() => {
@@ -30,7 +30,7 @@ function App() {
                     <Route path="/about" element={<About />} />
                     <Route path="/membership" element={<Membership />} />
                     <Route path="/teams" element={<TeamInfo />} />
-                    <Route path="/sponsors" element={<Sponsors />} />
+                    <Route path="/supporters" element={<Supporters />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
             </main>
