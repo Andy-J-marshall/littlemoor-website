@@ -31,7 +31,6 @@ function Membership() {
                 </a>{' '}
                 or speak to a member if you are interested in joining.
             </p>
-            <img className="membership-page-img" src={membershipImg}></img>
             <p>
                 Read more about the benefits of crown green bowling{' '}
                 <a
@@ -42,6 +41,7 @@ function Membership() {
                     here
                 </a>
             </p>
+            <img className="membership-page-img" src={membershipImg}></img>
         </div>
     );
 }

@@ -16,7 +16,6 @@ function About() {
                 darts board.
             </p>
             <p>More information about the club...</p>
-            <img className="membership-page-img" src={clubHouseImg}></img>
             <h4>BOWLING</h4>
             <p>Information about bowling...</p>
             <h4>BILLIARDS</h4>
@@ -31,6 +30,7 @@ function About() {
             <a href="https://pudseybilliardsleague.blogspot.com">
                 Thursday League
             </a>
+            <img className="membership-page-img" src={clubHouseImg}></img>
         </div>
     );
 }
