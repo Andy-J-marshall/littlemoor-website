@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import clubHouseImg from '../images/membership/clubhouse-external.png';
 
 function About() {
     useEffect(() => {
@@ -10,13 +11,14 @@ function About() {
     return (
         <div id="about-page" className="center page-component">
             <h1>ABOUT US</h1>
-            <p>Information about the club...</p>
-            <h4>BOWLING</h4>
-            <p>Information about bowling...</p>
             <p>
                 The modern clubhouse has a bar, 2 full size snooker tables and a
                 darts board.
             </p>
+            <p>More information about the club...</p>
+            <img className="membership-page-img" src={clubHouseImg}></img>
+            <h4>BOWLING</h4>
+            <p>Information about bowling...</p>
             <h4>BILLIARDS</h4>
             <p>
                 There is a billiards team that plays on a Tuesday and Thursday

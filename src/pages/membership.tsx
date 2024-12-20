@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import { config } from '../config';
 import membershipImg from '../images/membership/membership.png';
-import membershipImg2 from '../images/membership/clubhouse-external.png';
 
 function Membership() {
     useEffect(() => {
@@ -15,7 +14,6 @@ function Membership() {
                 {config.teamNames.fullName} welcomes new members of any age or
                 experience level.
             </p>
-            <img className="membership-page-img" src={membershipImg2}></img>
             <p>
                 Fees apply to anyone over 16; children are welcome but must be
                 accompanied by an adult member.
