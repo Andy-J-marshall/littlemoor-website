@@ -192,9 +192,11 @@ Navigating to the domain should now so the website. If it doesn't, try clearing 
 
 7. Update news items in `news.json`
 
-8. Update list of supporters in `supporters.tsx, including links and logos
+8. Update details and the list of supporters in `supporters.tsx`, including links and logos
 
 9. Update the team information and photos in the `teamInfo` component, and adjust the display if required (e.g. number per row)
+
+10. Update the `About.tsx` page
 
 ### Tests
 
