@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { config } from '../config';
 import membershipImg from '../images/membership/membership.png';
-import membershipImg2 from '../images/membership/membership2.png';
+import membershipImg2 from '../images/membership/clubhouse-external.png';
 
 function Membership() {
     useEffect(() => {

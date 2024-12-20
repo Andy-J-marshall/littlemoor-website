@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { config } from '../config';
-import easyFundraisingImg from '../images/supporters/easyFundraising.png';
+import easyFundraisingImg from '../images/news/easyFundraising.png';
 
 function Sponsors() {
     useEffect(() => {

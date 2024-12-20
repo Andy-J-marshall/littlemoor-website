@@ -1,5 +1,5 @@
-import supporter2Img from '../images/supporters/easyFundraising.png';
-import supporter3Img from '../images/supporters/levelsAbove.png';
+import supporter2Img from '../images/news/easyFundraising.png';
+import supporter3Img from '../images/news/sponsor.png';
 
 function Supporters() {
     // TODO change this to carousel
