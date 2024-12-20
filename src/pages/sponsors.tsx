@@ -1,5 +1,12 @@
 import { useEffect } from 'react';
+import { Image } from 'react-bootstrap';
 import { config } from '../config';
+import pmhImg from '../images/supporters/pmh_accountancy.png';
+import prestigeImg from '../images/supporters/prestige_plant_room.png';
+import alaskaBlackImg from '../images/supporters/alaska_black.png';
+import edsbImg from '../images/supporters/edsb.png';
+import ppImage from '../images/supporters/p_and_p_gardening.png';
+import levelsAboveImg from '../images/supporters/levels_above.png';
 import easyFundraisingImg from '../images/supporters/easy_fundraising.png';
 
 function Sponsors() {
@@ -17,59 +24,102 @@ function Sponsors() {
                     Adam Wider
                 </a>
             </p>
-            <h4>PMH Accountancy Services</h4>
+            <hr />
+
+            <h3>PMH Accountancy Services</h3>
             <p>
                 Some description of what PMH Accountancy Services do they do and
                 what they've sponsored.
             </p>
-            <a className="link" href="https://www.pmhaccountancy.co.uk/">
-                Click here to find out more
+            <a target="_blank" href="https://www.pmhaccountancy.co.uk/">
+                <Image
+                    className="supporters-logos"
+                    rounded
+                    src={pmhImg}
+                    fluid
+                ></Image>
             </a>
-            <h4>Prestige Plant Room Services</h4>
+            <hr />
+
+            <h3>Prestige Plant Room Services</h3>
             <p>
                 Some description of what Prestige Plant room Services do and
                 what they've sponsored.
             </p>
-            <a className="link" href="https://prestigeprs.com/">
-                Click here to find out more
+            <a target="_blank" href="https://prestigeprs.com/">
+                <Image
+                    className="supporters-logos"
+                    rounded
+                    src={prestigeImg}
+                    fluid
+                ></Image>
             </a>
-            <h4>Alaska Black</h4>
+            <hr />
+
+            <h3>Alaska Black</h3>
             <p>
                 Some description of what Alaska Black do and what they've
                 sponsored.
             </p>
-            <a className="link" href="https://www.alaska.black/">
-                Click here to find out more
+            <a href="https://www.alaska.black/">
+                <Image
+                    className="supporters-logos"
+                    rounded
+                    src={alaskaBlackImg}
+                    fluid
+                ></Image>
             </a>
-            <h4>EDSB Compliance Solutions</h4>
+            <hr />
+
+            <h3>EDSB Compliance Solutions</h3>
             <p>
                 Some description of what EDSB Compliance Solutions do and what
                 they've sponsored.
             </p>
-            <a className="link" href="https://edsb.co.uk/">
-                Click here to find out more
+            <a target="_blank" href="https://edsb.co.uk/">
+                <Image
+                    className="supporters-logos"
+                    rounded
+                    src={edsbImg}
+                    fluid
+                ></Image>
             </a>
-            <h4>P & P Garden Services</h4>
+            <hr />
+
+            <h3>P & P Garden Services</h3>
             <p>
                 Some description of what P & P Garden Services do and what
                 they've sponsored.
             </p>
             <a
-                className="link"
+                target="_blank"
                 href="https://www.facebook.com/PandPgardeningsvs/"
             >
-                Click here to find out more
+                <Image
+                    className="supporters-logos"
+                    rounded
+                    src={ppImage}
+                    fluid
+                ></Image>
             </a>
-            <h4>Levels Above Site Services</h4>
+            <hr />
+
+            <h3>Levels Above Site Services</h3>
             <p>
                 Some description of what Levels Above Site Services do and what
                 they've sponsored.
             </p>
-            <a className="link" href="https://www.levelsaboveltd.co.uk/">
-                Click here to find out more
+            <a target="_blank" href="https://www.levelsaboveltd.co.uk/">
+                <Image
+                    className="supporters-logos"
+                    rounded
+                    src={levelsAboveImg}
+                    fluid
+                ></Image>
             </a>
+            <hr />
 
-            <h4>Easy Fundraising</h4>
+            <h3>Easy Fundraising</h3>
             <p>
                 You can support the club by shopping through Easy Fundraising.
             </p>
@@ -77,11 +127,12 @@ function Sponsors() {
                 target="_blank"
                 href="https://www.easyfundraising.org.uk/support-a-good-cause/step-1/?char=362452&invite=7sk19t&referral-campaign=s2s&utm_campaign=web-referral"
             >
-                <img
+                <Image
                     className="supporters-logos"
+                    rounded
                     src={easyFundraisingImg}
-                    alt="support-logo2"
-                />
+                    fluid
+                ></Image>
             </a>
         </div>
     );
