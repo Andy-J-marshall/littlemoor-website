@@ -21,6 +21,12 @@ function Membership() {
                 accompanied by an adult member.
             </p>
             <p>
+                Team kit can be bought direct from{' '}
+                <a target="_blank" className="link" href={config.clubShopUrl}>
+                    SportsFX
+                </a>
+            </p>
+            <p>
                 Please{' '}
                 <a className="link" href="/#/contact">
                     contact us
@@ -29,15 +35,14 @@ function Membership() {
             </p>
             <img className="membership-page-img" src={membershipImg}></img>
             <p>
-                Read more about the{' '}
+                Read more about the benefits of crown green bowling{' '}
                 <a
                     target="_blank"
                     className="link"
                     href="https://sway.cloud.microsoft/Tz6DJWwN2m4J1kds"
                 >
-                    benefits of crown green bowling
-                </a>{' '}
-                here.
+                    here
+                </a>
             </p>
         </div>
     );

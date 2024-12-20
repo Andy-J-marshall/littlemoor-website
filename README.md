@@ -184,6 +184,7 @@ Navigating to the domain should now so the website. If it doesn't, try clearing 
     - social links
     - team names
     - membership price
+    - club shop url (if applicable)
 
 5. Update `contact.tsx` page with correct information and links
 
