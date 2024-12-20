@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Button, Card, Collapse, Col, Row } from 'react-bootstrap';
-import news1Img from '../images/news/news-image1.png';
-import news2Img from '../images/news/news-image2.png';
-import news3Img from '../images/news/news-image3.png';
+import news1Img from '../images/news/social.png';
+import news2Img from '../images/news/sponsor.png';
+import news3Img from '../images/news/captain.png';
 import news from '../news.json';
 
 function News() {

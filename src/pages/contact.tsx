@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import facebookImg from '../images/socials/facebook_blue.png';
-import instagramImg from '../images/socials/facebook_blue.png'; // TODO change to instagram logo
+import instagramImg from '../images/socials/instagram_blue.png';
 import email from '../images/socials/email_blue.png';
 import { config } from '../config';
 

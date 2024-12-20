@@ -1,9 +1,11 @@
 import googleImg from '../images/socials/maps_white.png';
 import facebookImg from '../images/socials/facebook_white.png';
+import instagramImg from '../images/socials/instagram_white.png';
 import emailImg from '../images/socials/email_white.png';
 import { config } from '../config';
 
-const { facebookUrl, emailUrl, googleMapsUrl } = config.socialLinks;
+const { facebookUrl, instagramUrl, emailUrl, googleMapsUrl } =
+    config.socialLinks;
 const currentYear = new Date().getFullYear();
 
 function Footer() {
@@ -15,6 +17,13 @@ function Footer() {
                         className="logos"
                         src={facebookImg}
                         alt="Facebook link"
+                    />
+                </a>
+                <a target="_blank" href={instagramUrl}>
+                    <img
+                        className="logos"
+                        src={instagramImg}
+                        alt="instagram link"
                     />
                 </a>
                 <a target="_blank" href={googleMapsUrl}>
