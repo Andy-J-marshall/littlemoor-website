@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { config } from '../config';
+import easyFundraisingImg from '../images/supporters/easyFundraising.png';
 
 function Sponsors() {
     useEffect(() => {
@@ -16,7 +17,7 @@ function Sponsors() {
                     Adam Wider
                 </a>
             </p>
-            <h3>PMH Accountancy Services</h3>
+            <h4>PMH Accountancy Services</h4>
             <p>
                 Some description of what PMH Accountancy Services do they do and
                 what they've sponsored.
@@ -24,15 +25,15 @@ function Sponsors() {
             <a className="link" href="https://www.pmhaccountancy.co.uk/">
                 Click here to find out more
             </a>
-            <h3>Prestige Plant Room Services</h3>
+            <h4>Prestige Plant Room Services</h4>
             <p>
-                Some description of what Prestige Plant room Services do and what
-                they've sponsored.
+                Some description of what Prestige Plant room Services do and
+                what they've sponsored.
             </p>
             <a className="link" href="https://prestigeprs.com/">
                 Click here to find out more
             </a>
-            <h3>Alaska Black</h3>
+            <h4>Alaska Black</h4>
             <p>
                 Some description of what Alaska Black do and what they've
                 sponsored.
@@ -40,7 +41,7 @@ function Sponsors() {
             <a className="link" href="https://www.alaska.black/">
                 Click here to find out more
             </a>
-            <h3>EDSB Compliance Solutions</h3>
+            <h4>EDSB Compliance Solutions</h4>
             <p>
                 Some description of what EDSB Compliance Solutions do and what
                 they've sponsored.
@@ -48,7 +49,7 @@ function Sponsors() {
             <a className="link" href="https://edsb.co.uk/">
                 Click here to find out more
             </a>
-            <h3>P & P Garden Services</h3>
+            <h4>P & P Garden Services</h4>
             <p>
                 Some description of what P & P Garden Services do and what
                 they've sponsored.
@@ -58,6 +59,21 @@ function Sponsors() {
                 href="https://www.facebook.com/PandPgardeningsvs/"
             >
                 Click here to find out more
+            </a>
+
+            <h4>Easy Fundraising</h4>
+            <p>
+                You can support the club by shopping through Easy Fundraising.
+            </p>
+            <a
+                target="_blank"
+                href="https://www.easyfundraising.org.uk/support-a-good-cause/step-1/?char=362452&invite=7sk19t&referral-campaign=s2s&utm_campaign=web-referral"
+            >
+                <img
+                    className="supporters-logos"
+                    src={easyFundraisingImg}
+                    alt="support-logo2"
+                />
             </a>
         </div>
     );
