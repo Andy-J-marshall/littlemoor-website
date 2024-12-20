@@ -30,6 +30,19 @@ function Navigation() {
                     >
                         <Nav.Item
                             as={Link}
+                            to="/about"
+                            className="navigation link"
+                        >
+                            <Nav.Link
+                                as="div"
+                                href="/about"
+                                eventKey="/about"
+                            >
+                                ABOUT US
+                            </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item
+                            as={Link}
                             to="/membership"
                             className="navigation link"
                         >
@@ -48,6 +61,15 @@ function Navigation() {
                         >
                             <Nav.Link as="div" href="/teams" eventKey="/teams">
                                 TEAMS
+                            </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item
+                            as={Link}
+                            to="/supporters"
+                            className="navigation link"
+                        >
+                            <Nav.Link as="div" href="/supporters" eventKey="/supporters">
+                                SUPPORTERS
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item

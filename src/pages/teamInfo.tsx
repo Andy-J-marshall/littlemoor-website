@@ -1,42 +1,53 @@
 import { useEffect } from 'react';
 import { Card, Button, Row, Col } from 'react-bootstrap';
-import teamImg from '../images/membership/teams.png';
+import teamImgAW from '../images/teams/monday_airewharfe.png';
+import teamImgMirfield from '../images/teams/mirfield.png';
+import teamImgHalfHol from '../images/teams/half_hol_bradford.png';
+import teamImgSpen from '../images/teams/spen_valley.png';
+import teamImgVets from '../images/teams/thursday_vets_bradford.png';
+import teamImgSatBrad from '../images/teams/saturday_bradford.png';
 
 const teams = [
     {
         name: 'Monday AireWharfe',
         link: 'https://bowlsnet.uk/AW-Mon',
-        img: teamImg,
-    },
-    {
-        name: 'Monday Bradford',
-        link: 'https://bowlsnet.uk/Bradford-Mon',
-        img: teamImg,
+        captain: 'Mark Allman',
+        bCaptain: 'Nicky Dewhirst',
+        img: teamImgAW,
     },
     {
         name: 'Mirfield',
         link: 'https://bowlsnet.uk/Mirfield',
-        img: teamImg,
+        captain: 'Marc Armitage',
+        bCaptain: 'Steve Bowes',
+        img: teamImgMirfield,
     },
     {
         name: 'Half Holiday Bradford',
         link: 'https://bowlsnet.uk/Bradford-HalfHol',
-        img: teamImg,
+        captain: 'Kath Mazurke',
+        bCaptain: 'Steve Bowes',
+        img: teamImgHalfHol,
     },
     {
         name: 'Spen Valley',
         link: 'https://bowlsnet.uk/WestRiding',
-        img: teamImg,
+        captain: 'Will Bedford',
+        bCaptain: 'Alan Mazurke',
+        img: teamImgSpen,
     },
     {
         name: 'Thursday Vets Bradford',
         link: 'https://bowlsnet.uk/Bradford-Vets',
-        img: teamImg,
+        captain: 'Angie Carter',
+        img: teamImgVets,
     },
     {
         name: 'Saturday Bradford',
         link: 'https://bowlsnet.uk/Bradford-Sat',
-        img: teamImg,
+        captain: 'Lee Wider',
+        bCaptain: 'Nicky Dewhirst & Phil Thornton',
+        img: teamImgSatBrad,
     },
 ];
 
@@ -45,11 +56,13 @@ function TeamInfo() {
         window.scrollTo(0, 0);
     });
 
+    // TODO link to the club shop
     // TODO improve images
+    // TODO mention captains?
     return (
         <div id="team-info-page" className="page-component center">
             <h1>TEAMS</h1>
-            <Row xs={1} sm={1} md={2} lg={3} className="g-4 tabs">
+            <Row xs={1} md={2} xl={3} className="g-4 tabs">
                 {teams.map((team, idx) => (
                     <Col key={idx}>
                         <Card bg="light">
@@ -59,7 +72,17 @@ function TeamInfo() {
                                 src={team.img}
                             />
                             <Card.Body>
-                                <Card.Title>{team.name}</Card.Title>
+                                <h5>{team.name.toUpperCase()}</h5>
+                                <div style={{ minHeight: '12rem' }}>
+                                    <Card.Body>
+                                        1st Team captain: {team.captain}
+                                    </Card.Body>
+                                    {team.bCaptain && (
+                                        <Card.Body>
+                                            2nd Team captain: {team.bCaptain}
+                                        </Card.Body>
+                                    )}
+                                </div>
                                 <Button
                                     style={{ backgroundColor: '#162645' }}
                                     href={team.link}

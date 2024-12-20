@@ -1,12 +1,13 @@
 export const config = {
+    clubShopUrl:
+        'https://www.sportsfx.co.uk/product-category/club-shops/littlemoor-sports/',
     teamNames: {
         fullName: 'Littlemoor Sports & Social Club',
         shortName: 'Littlemoor',
     },
-    membershipPrice: '35',
     socialLinks: {
         facebookUrl: 'https://www.facebook.com/groups/254439544994129/', // TODO want a better link?
-        // TODO add instagram
+        instagramUrl: 'https://www.instagram.com/pudsey_littlemoor/',
         emailUrl: 'mailto:littlemoorsportsandsocialclub@gmail.com',
         googleMapsUrl: 'https://maps.app.goo.gl/p3aGzHLGT2CCj5rv8',
         googleMapsIframeUrl:

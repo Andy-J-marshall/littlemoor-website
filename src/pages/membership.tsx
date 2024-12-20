@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import { config } from '../config';
 import membershipImg from '../images/membership/membership.png';
-import membershipImg2 from '../images/membership/membership2.png';
 
 function Membership() {
     useEffect(() => {
@@ -16,18 +15,14 @@ function Membership() {
                 experience level.
             </p>
             <p>
-                The modern clubhouse has a bar, 2 full size snooker tables and a
-                darts board.
-            </p>
-            <img className="membership-page-img" src={membershipImg2}></img>
-            <p>
-                The membership price is £{config.membershipPrice} per year.
-                Membership is valid per year and runs from 1st January until
-                31st December.
-            </p>
-            <p>
                 Fees apply to anyone over 16; children are welcome but must be
                 accompanied by an adult member.
+            </p>
+            <p>
+                Team kit can be bought direct from{' '}
+                <a target="_blank" className="link" href={config.clubShopUrl}>
+                    SportsFX
+                </a>
             </p>
             <p>
                 Please{' '}
@@ -36,18 +31,17 @@ function Membership() {
                 </a>{' '}
                 or speak to a member if you are interested in joining.
             </p>
-            <img className="membership-page-img" src={membershipImg}></img>
             <p>
-                Read more about the{' '}
+                Read more about the benefits of crown green bowling{' '}
                 <a
                     target="_blank"
                     className="link"
                     href="https://sway.cloud.microsoft/Tz6DJWwN2m4J1kds"
                 >
-                    benefits of crown green bowling
-                </a>{' '}
-                here.
+                    here
+                </a>
             </p>
+            <img className="membership-page-img" src={membershipImg}></img>
         </div>
     );
 }

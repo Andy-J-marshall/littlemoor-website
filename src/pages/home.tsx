@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import Supporters from '../components/supporters';
 import Header from '../components/header';
 import News from '../components/news';
 import HomePageCarousel from '../components/homePageCarousel';
@@ -19,8 +18,6 @@ function Home() {
                 <HomePageCarousel />
                 <br />
                 <News />
-                <br />
-                <Supporters />
                 <br />
             </div>
         </div>

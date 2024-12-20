@@ -63,7 +63,7 @@ The news items will appear in the order they are in the `news.json` file.
 -   `openingText` - the first line of the news item
 -   `mainText` - the main body of the news item
 
-The images can be updated but they need to be named exactly the same as they already are in the `src/images/news` directory. The images will be associated with the news item based on the order they are in the `news.json` file i.e. the first news item in the JSON file 1 will use `news-image1.png`, the second news item will use `news-image2.png` etc.
+New images need to be added to the `src/images/news` directory. The images will need to be imported and associated to a news article in the `src/components/news.tsx` file.
 
 ### Creating a new page
 
@@ -184,6 +184,7 @@ Navigating to the domain should now so the website. If it doesn't, try clearing 
     - social links
     - team names
     - membership price
+    - club shop url (if applicable)
 
 5. Update `contact.tsx` page with correct information and links
 
@@ -191,9 +192,11 @@ Navigating to the domain should now so the website. If it doesn't, try clearing 
 
 7. Update news items in `news.json`
 
-8. Update list of supporters in `supporters.tsx, including links and logos
+8. Update details and the list of supporters in `supporters.tsx`, including links and logos
 
 9. Update the team information and photos in the `teamInfo` component, and adjust the display if required (e.g. number per row)
+
+10. Update the `About.tsx` page
 
 ### Tests
 

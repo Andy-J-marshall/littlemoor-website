@@ -8,6 +8,8 @@ import Contact from './pages/contact';
 import Navigation from './components/navigation';
 import TeamInfo from './pages/teamInfo';
 import './app.css';
+import About from './pages/about';
+import Supporters from './pages/supporters';
 
 function App() {
     useEffect(() => {
@@ -25,8 +27,10 @@ function App() {
                 <Routes>
                     <Route path="" element={<Home />} />
                     <Route path="/home" element={<Home />} />
+                    <Route path="/about" element={<About />} />
                     <Route path="/membership" element={<Membership />} />
                     <Route path="/teams" element={<TeamInfo />} />
+                    <Route path="/supporters" element={<Supporters />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
             </main>
