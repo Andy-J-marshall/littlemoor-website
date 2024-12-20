@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { config } from '../config';
-import easyFundraisingImg from '../images/news/easyFundraising.png';
+import easyFundraisingImg from '../images/supporters/easy_fundraising.png';
 
 function Sponsors() {
     useEffect(() => {
@@ -58,6 +58,14 @@ function Sponsors() {
                 className="link"
                 href="https://www.facebook.com/PandPgardeningsvs/"
             >
+                Click here to find out more
+            </a>
+            <h4>Levels Above Site Services</h4>
+            <p>
+                Some description of what Levels Above Site Services do and what
+                they've sponsored.
+            </p>
+            <a className="link" href="https://www.levelsaboveltd.co.uk/">
                 Click here to find out more
             </a>
 
