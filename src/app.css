@@ -10,6 +10,11 @@ body {
 }
 
 th,
+h1 {
+    text-align: center;
+}
+
+th,
 h1,
 h2,
 h3,
@@ -34,6 +39,7 @@ h5 {
     padding: 0.5rem 0 0 0;
     background-color: #162645;
     color: white;
+    text-align: center;
 }
 
 #navbar {
@@ -51,7 +57,7 @@ h5 {
     font-size: 19px;
     font-family: 'signika';
     margin: auto;
-    text-align: center;
+    text-align: left;
 }
 
 #header {
@@ -59,6 +65,7 @@ h5 {
     margin-bottom: 0.7rem;
     background-color: #162645;
     color: #ffffff;
+    text-align: center;
 }
 
 .container-fluid,
@@ -120,7 +127,7 @@ h5 {
 }
 
 .supporters-logos {
-    width: 40%;
+    width: 36%;
 }
 
 .footnote {

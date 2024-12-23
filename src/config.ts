@@ -6,7 +6,7 @@ export const config = {
         shortName: 'Littlemoor',
     },
     socialLinks: {
-        facebookUrl: 'https://www.facebook.com/groups/254439544994129/', // TODO want a better link?
+        facebookUrl: 'https://www.facebook.com/profile.php?id=61555728557091',
         instagramUrl: 'https://www.instagram.com/pudsey_littlemoor/',
         emailUrl: 'mailto:littlemoorsportsandsocialclub@gmail.com',
         googleMapsUrl: 'https://maps.app.goo.gl/p3aGzHLGT2CCj5rv8',

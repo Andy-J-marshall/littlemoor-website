@@ -18,7 +18,7 @@ function Contact() {
         <div id="contact-page" className="page-component center">
             <h1>CONTACT US</h1>
             <p>
-                Get in touch via email:{' '}
+                Get in touch via email:
                 <a className="link" href={emailUrl}>
                     <img className="logos" src={emailImg} alt="Email link" />
                     {emailAddress}
@@ -42,7 +42,7 @@ function Contact() {
                 </a>
             </p>
             <div>
-                <h1>LOCATION</h1>
+                <h2>LOCATION</h2>
                 <p>
                     {config.teamNames.fullName} is situated on Valley Road in
                     Pudsey.

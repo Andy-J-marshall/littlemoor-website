@@ -8,28 +8,55 @@ function About() {
     // TODO add content e.g. the club, green, building, history, etc.
     // TODO add photos
 
+    // TODO align all text to the left for every page
+
     return (
         <div id="about-page" className="center page-component">
             <h1>ABOUT US</h1>
             <p>
-                The modern clubhouse has a bar, 2 full size snooker tables and a
-                darts board.
+                Established in 1895, Littlemoor Sports & Social Club is a
+                not-for-profit organisation run entirely by volunteers. We
+                currently have 96 members, ranging from teenagers to people in
+                their eighties, who live in Pudsey and the surrounding areas.
             </p>
-            <p>More information about the club...</p>
-            <h4>BOWLING</h4>
-            <p>Information about bowling...</p>
-            <h4>BILLIARDS</h4>
             <p>
-                There is a billiards team that plays on a Tuesday and Thursday
-                evening.
+                The club is particularly popular for its bowling green, which is
+                considered one of the best in Yorkshire. Known for its friendly
+                atmosphere, the club hosts various events and activities, making
+                it a great place for socializing and community engagement.
+                Visitors often praise the club for its warm and inclusive
+                environment.
             </p>
-            <a href="https://bradfordssbilliards.blogspot.com/">
-                Tuesday League
-            </a>
-            <br />
-            <a href="https://pudseybilliardsleague.blogspot.com">
-                Thursday League
-            </a>
+            <p>
+                While it primarily serves its members, the club also welcomes
+                new visitors interested in joining. We are actively promoting
+                the club and the game of crown green bowls to the local
+                community.
+            </p>
+            <h3>BOWLING</h3>
+            <p>
+                Crown green bowls is a fantastic way to socialise, but for those
+                with a competitive edge, Littlemoor Sports & Social Club
+                competes in many local leagues, including:
+            </p>
+            <ul>
+                <li>Monday - Aire Wharfe League and Bradford League</li>
+                <li>
+                    Tuesday - Mirfield League (widely regarded as one of the
+                    best leagues in the country)
+                </li>
+                <li>
+                    Wednesday - Bradford Half Holiday League and West Riding &
+                    Spen Valley League
+                </li>
+                <li>Thursday - Bradford Vets League</li>
+                <li>Saturday - Bradford League</li>
+            </ul>
+            <p>
+                Due to the quality of our bowling green, we also host a number
+                of representative and cup games, attracting visitors from all
+                over the country.
+            </p>
             <img className="membership-page-img" src={clubHouseImg}></img>
         </div>
     );

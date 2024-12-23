@@ -58,6 +58,7 @@ function News() {
     return (
         <div id="news">
             <h1>LATEST NEWS</h1>
+            {/* TODO add link to supporters page */}
             <Row xs={1} lg={3} className="g-4 align-items-start">
                 {newsItems.map((item, index) => {
                     return (
