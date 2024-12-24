@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import clubHouseImg from '../images/membership/clubhouse-external.png';
+import clubHouseImg from '../images/membership/clubhouse_external.png';
 
 function About() {
     useEffect(() => {
