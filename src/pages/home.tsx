@@ -9,7 +9,7 @@ function Home() {
     });
 
     return (
-        <div className="center" id="home-page">
+        <div className="center center-align" id="home-page">
             <Header />
             <div
                 style={{ width: '98%', overflowX: 'hidden' }}
