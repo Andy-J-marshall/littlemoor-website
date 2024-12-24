@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
+import { config } from '../config';
 import facebookImg from '../images/socials/facebook_blue.png';
 import instagramImg from '../images/socials/instagram_blue.png';
 import emailImg from '../images/socials/email_blue.png';
-import { config } from '../config';
 
 const { facebookUrl, instagramUrl, emailUrl, googleMapsIframeUrl } =
     config.socialLinks;
@@ -26,21 +26,17 @@ function Contact() {
             </p>
             <p>
                 Keep up to date with the latest news via our social media pages:
-                <a className="link" target="_blank" href={facebookUrl}>
-                    <img
-                        className="logos"
-                        src={facebookImg}
-                        alt="Facebook link"
-                    />
-                </a>
-                <a className="link" target="_blank" href={instagramUrl}>
-                    <img
-                        className="logos"
-                        src={instagramImg}
-                        alt="Instagram link"
-                    />
-                </a>
             </p>
+            <a className="link" target="_blank" href={facebookUrl}>
+                <img className="logos" src={facebookImg} alt="Facebook link" />
+            </a>
+            <a className="link" target="_blank" href={instagramUrl}>
+                <img
+                    className="logos"
+                    src={instagramImg}
+                    alt="Instagram link"
+                />
+            </a>
             <div>
                 <h2>LOCATION</h2>
                 <p>
