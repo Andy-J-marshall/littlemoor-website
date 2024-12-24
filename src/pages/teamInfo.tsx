@@ -6,9 +6,8 @@ import teamImgHalfHol from '../images/teams/half_hol_bradford.png';
 import teamImgSpen from '../images/teams/spen_valley.png';
 import teamImgVets from '../images/teams/thursday_vets_bradford.png';
 import teamImgSatBrad from '../images/teams/saturday_bradford.png';
-// TODO change images
-import teamImgTueBilliards from '../images/teams/saturday_bradford.png';
-import teamImgThuBilliards from '../images/teams/saturday_bradford.png';
+import teamImgBradfordBilliards from '../images/teams/billiards_bradford.png';
+import teamImgPudseyBilliards from '../images/teams/billiards_pudsey.png';
 
 const teams = [
     {
@@ -58,12 +57,12 @@ const billiardTeams = [
     {
         name: 'Pudsey Sunday School',
         link: 'https://pudseybilliardsleague.blogspot.com',
-        img: teamImgThuBilliards,
+        img: teamImgPudseyBilliards,
     },
     {
         name: 'Bradford Sunday School',
         link: 'https://bradfordssbilliards.blogspot.com/',
-        img: teamImgTueBilliards,
+        img: teamImgBradfordBilliards,
     },
 ];
 
@@ -72,9 +71,9 @@ function TeamInfo() {
         window.scrollTo(0, 0);
     });
 
-    // TODO improve images
+
     return (
-        <div id="team-info-page" className="page-component center">
+        <div id="team-info-page" className="page-component center-align center">
             <h1>BOWLING</h1>
             <Row xs={1} md={2} xl={3} className="g-4 tabs">
                 {teams.map((team, idx) => (

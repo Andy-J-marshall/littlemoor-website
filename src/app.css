@@ -94,6 +94,10 @@ h5 {
     width: 85%;
 }
 
+.center-align {
+    text-align: center;
+}
+
 .carousel-link {
     color: white;
     text-decoration: none;
