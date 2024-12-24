@@ -1,9 +1,8 @@
 import { useState } from 'react';
 import { Button, Card, Collapse, Col, Row } from 'react-bootstrap';
-import news1Img from '../images/news/social.png';
-import news2Img from '../images/supporters/levels_above.png';
-import news3Img from '../images/news/captain.png';
-import news from '../news.json';
+import presentationImg from '../images/news/social.png';
+import sponsorshipImg from '../images/supporters/levels_above.png';
+import captainImg from '../images/news/captain.png';
 
 function News() {
     const [expandNews1, setExpandNews1] = useState(false);
@@ -30,26 +29,32 @@ function News() {
 
     const newsItems = [
         {
-            title: news[0].title,
-            openingLine: news[0].openingLine,
-            mainText: news[0].mainText,
-            imgSrc: news1Img,
+            title: 'PRESENTATION NIGHT',
+            openingLine:
+                'The presentation night has been booked for the 1st February.',
+            mainText:
+                'It will be held at the clubhouse with the start time to be confirmed.',
+            imgSrc: presentationImg,
             callback: handleNewsExpand1,
             expanded: expandNews1,
         },
         {
-            title: news[1].title,
-            openingLine: news[1].openingLine,
-            mainText: news[1].mainText,
-            imgSrc: news2Img,
+            title: 'SPONSORSHIP PACKAGES',
+            openingLine:
+                'Sponsorship packages are available for the 2025 season.',
+            mainText:
+                'Find out about our sponsorship packages on the Supporters page.',
+            imgSrc: sponsorshipImg,
             callback: handleNewsExpand2,
             expanded: expandNews2,
         },
         {
-            title: news[2].title,
-            openingLine: news[2].openingLine,
-            mainText: news[2].mainText,
-            imgSrc: news3Img,
+            title: 'BOWLS MEETING',
+            openingLine:
+                'There is a bowls meeting on the 23rd November at 2pm.',
+            mainText:
+                'The meeting will be held at the club and all members are encouraged to attend. The meeting will discuss the the teams for the upcoming season and to choose the captains.',
+            imgSrc: captainImg,
             callback: handleNewsExpand3,
             expanded: expandNews3,
         },
@@ -58,7 +63,6 @@ function News() {
     return (
         <div id="news">
             <h1>LATEST NEWS</h1>
-            {/* TODO add link to supporters page */}
             <Row xs={1} lg={3} className="g-4 align-items-start">
                 {newsItems.map((item, index) => {
                     return (

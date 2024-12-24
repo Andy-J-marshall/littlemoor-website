@@ -10,11 +10,6 @@ body {
 }
 
 th,
-h1 {
-    text-align: center;
-}
-
-th,
 h1,
 h2,
 h3,
@@ -92,6 +87,10 @@ h5 {
     margin-top: 4rem;
     margin-bottom: 2rem;
     width: 85%;
+}
+
+.center-align {
+    text-align: center;
 }
 
 .carousel-link {

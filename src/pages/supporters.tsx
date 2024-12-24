@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Image } from 'react-bootstrap';
 import emailImg from '../images/socials/email_blue.png';
+import phoneImg from '../images/socials/phone_blue.png';
 import pmhImg from '../images/supporters/pmh_accountancy.png';
 import prestigeImg from '../images/supporters/prestige_plant_room.png';
 import alaskaBlackImg from '../images/supporters/alaska_black.png';
@@ -29,7 +30,8 @@ function Supporters() {
                     {emailAddress}
                 </a>
                 <br />
-                Phone: 07496083058
+                <img className="logos" src={phoneImg} alt="phone icon" />
+                07496083058
             </p>
             <hr />
 

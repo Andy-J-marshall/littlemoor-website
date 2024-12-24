@@ -50,14 +50,14 @@ Below is information on how to update the content of the website by using pull r
 You can change the news item by following the below steps:
 
 1. Navigate to the `src` directory in the repository
-2. Open the `news.json` file
+2. Open the `news.tsx` file
 3. Make changes to the file as required
 4. Commit the changes
-5. Optional: to change the images associated with the news item, upload the new image to the `src/images/news` directory, keeping the same file name as the original image
+5. Optional: to change the images associated with the news item, upload the new image to the `src/images/news` directory and reference the new image in the `news.tsx` file
 
 #### Additional information
 
-The news items will appear in the order they are in the `news.json` file.
+The news items will appear in the order they are in the `news.tsx` file.
 
 -   `title` - The title of the news item
 -   `openingText` - the first line of the news item
@@ -190,7 +190,7 @@ Navigating to the domain should now so the website. If it doesn't, try clearing 
 
 6. Update `membership.tsx` page
 
-7. Update news items in `news.json`
+7. Update news items in `news.tsx`
 
 8. Update details and the list of supporters in `supporters.tsx`, including links and logos
 

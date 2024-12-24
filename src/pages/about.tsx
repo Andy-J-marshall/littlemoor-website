@@ -5,10 +5,6 @@ function About() {
     useEffect(() => {
         window.scrollTo(0, 0);
     });
-    // TODO add content e.g. the club, green, building, history, etc.
-    // TODO add photos
-
-    // TODO align all text to the left for every page
 
     return (
         <div id="about-page" className="center page-component">
