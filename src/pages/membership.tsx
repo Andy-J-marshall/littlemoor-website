@@ -41,14 +41,6 @@ function Membership() {
                     here
                 </a>
             </p>
-
-            <a href="https://bradfordssbilliards.blogspot.com/">
-                Tuesday League
-            </a>
-            <br />
-            <a href="https://pudseybilliardsleague.blogspot.com">
-                Thursday League
-            </a>
             <img className="membership-page-img" src={membershipImg}></img>
         </div>
     );

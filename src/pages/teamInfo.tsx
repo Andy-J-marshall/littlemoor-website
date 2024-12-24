@@ -6,6 +6,9 @@ import teamImgHalfHol from '../images/teams/half_hol_bradford.png';
 import teamImgSpen from '../images/teams/spen_valley.png';
 import teamImgVets from '../images/teams/thursday_vets_bradford.png';
 import teamImgSatBrad from '../images/teams/saturday_bradford.png';
+// TODO change images
+import teamImgTueBilliards from '../images/teams/saturday_bradford.png';
+import teamImgThuBilliards from '../images/teams/saturday_bradford.png';
 
 const teams = [
     {
@@ -51,6 +54,19 @@ const teams = [
     },
 ];
 
+const billiardTeams = [
+    {
+        name: 'Pudsey Sunday School',
+        link: 'https://pudseybilliardsleague.blogspot.com',
+        img: teamImgThuBilliards,
+    },
+    {
+        name: 'Bradford Sunday School',
+        link: 'https://bradfordssbilliards.blogspot.com/',
+        img: teamImgTueBilliards,
+    },
+];
+
 function TeamInfo() {
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -59,7 +75,7 @@ function TeamInfo() {
     // TODO improve images
     return (
         <div id="team-info-page" className="page-component center">
-            <h1>TEAMS</h1>
+            <h1>BOWLING</h1>
             <Row xs={1} md={2} xl={3} className="g-4 tabs">
                 {teams.map((team, idx) => (
                     <Col key={idx}>
@@ -87,6 +103,32 @@ function TeamInfo() {
                                     target="_blank"
                                 >
                                     View on Bowlsnet
+                                </Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                ))}
+            </Row>
+            <br />
+            <h1>BILLIARDS</h1>
+            <Row xs={1} md={2} xl={3} className="g-4 tabs">
+                {billiardTeams.map((team, idx) => (
+                    <Col key={idx}>
+                        <Card bg="light">
+                            <Card.Img
+                                alt="team-photo"
+                                variant="top"
+                                src={team.img}
+                            />
+                            <Card.Body>
+                                <h5>{team.name.toUpperCase()}</h5>
+                                <br />
+                                <Button
+                                    style={{ backgroundColor: '#162645' }}
+                                    href={team.link}
+                                    target="_blank"
+                                >
+                                    View League Website
                                 </Button>
                             </Card.Body>
                         </Card>
