@@ -12,7 +12,7 @@ function Navigation() {
             variant="light"
             expand="md"
         >
-            <Container className='center-align' fluid>
+            <Container className="center-align" fluid>
                 <Navbar.Brand as={Link} to="/" href="/home">
                     <Image
                         style={{ height: '2.3rem' }}
