@@ -37,8 +37,10 @@ function Supporters() {
 
             <h3>PMH Accountancy Services</h3>
             <p>
-                Some description of what PMH Accountancy Services do they do and
-                what they've sponsored.
+                PMH Accountancy specialises in a variety of accounting services
+                with outstanding support. We understand how busy you are, and
+                with our expertise we can take care of your accounting needs
+                quickly and effectively.
             </p>
             <a target="_blank" href="https://www.pmhaccountancy.co.uk/">
                 <Image
