@@ -54,8 +54,8 @@ function Supporters() {
 
             <h3>Prestige Plant Room Services</h3>
             <p>
-                Some description of what Prestige Plant room Services do and
-                what they've sponsored.
+                Discover a new level of service in the world of plant room
+                services.
             </p>
             <a target="_blank" href="https://prestigeprs.com/">
                 <Image
@@ -69,8 +69,10 @@ function Supporters() {
 
             <h3>Alaska Black</h3>
             <p>
-                Some description of what Alaska Black do and what they've
-                sponsored.
+                Alaska Black are recruitment specialists, recruiting nationally
+                across all roles within FMCG, Building Services Engineering,
+                Facilities Management, Finance, Human Resources and Senior Level
+                Appointments.
             </p>
             <a href="https://www.alaska.black/">
                 <Image
@@ -84,8 +86,8 @@ function Supporters() {
 
             <h3>EDSB Compliance Solutions</h3>
             <p>
-                Some description of what EDSB Compliance Solutions do and what
-                they've sponsored.
+                EDSB Compliance Solutions are specialists in fire & security
+                compliance.
             </p>
             <a target="_blank" href="https://edsb.co.uk/">
                 <Image
@@ -99,8 +101,8 @@ function Supporters() {
 
             <h3>P & P Garden Services</h3>
             <p>
-                Some description of what P & P Garden Services do and what
-                they've sponsored.
+                P & P Garden Services cover all aspects of gardening, both
+                commercial and residential. No job is too big or too small.
             </p>
             <a
                 target="_blank"
@@ -117,8 +119,10 @@ function Supporters() {
 
             <h3>Levels Above Site Services</h3>
             <p>
-                Some description of what Levels Above Site Services do and what
-                they've sponsored.
+                Levels Above Site Services have over 20 years hire industry
+                experience. With a national supply network across the UK their
+                aim is to simplify the order process by offering a full site
+                shopping list from 1 partnered supplier.
             </p>
             <a target="_blank" href="https://www.levelsaboveltd.co.uk/">
                 <Image
