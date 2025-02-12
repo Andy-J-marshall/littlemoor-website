@@ -35,23 +35,6 @@ function Supporters() {
             </p>
             <hr />
 
-            <h3>PMH Accountancy Services</h3>
-            <p>
-                PMH Accountancy specialises in a variety of accounting services
-                with outstanding support. We understand how busy you are, and
-                with our expertise we can take care of your accounting needs
-                quickly and effectively.
-            </p>
-            <a target="_blank" href="https://www.pmhaccountancy.co.uk/">
-                <Image
-                    className="supporters-logos"
-                    rounded
-                    src={pmhImg}
-                    fluid
-                ></Image>
-            </a>
-            <hr />
-
             <h3>Prestige Plant Room Services</h3>
             <p>
                 Discover a new level of service in the world of plant room
@@ -79,6 +62,23 @@ function Supporters() {
                     className="supporters-logos"
                     rounded
                     src={alaskaBlackImg}
+                    fluid
+                ></Image>
+            </a>
+            <hr />
+
+            <h3>PMH Accountancy Services</h3>
+            <p>
+                PMH Accountancy specialises in a variety of accounting services
+                with outstanding support. We understand how busy you are, and
+                with our expertise we can take care of your accounting needs
+                quickly and effectively.
+            </p>
+            <a target="_blank" href="https://www.pmhaccountancy.co.uk/">
+                <Image
+                    className="supporters-logos"
+                    rounded
+                    src={pmhImg}
                     fluid
                 ></Image>
             </a>
