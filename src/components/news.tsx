@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Button, Card, Collapse, Col, Row } from 'react-bootstrap';
 import presentationImg from '../images/news/social.png';
-import sponsorshipImg from '../images/supporters/levels_above.png';
+import sponsorshipImg from '../images/news/sponsors.png';
 import captainImg from '../images/news/captain.png';
 
 function News() {
