@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { config } from '../config';
 import membershipImg from '../images/membership/membership.png';
+import teamKitImg from '../images/membership/team_kit.png';
 
 function Membership() {
     useEffect(() => {
@@ -29,6 +30,12 @@ function Membership() {
                 </a>
                 .
             </p>
+
+            <a target="_blank" className="link" href={config.clubShopUrl}>
+                <img className="supporters-logos" src={teamKitImg}></img>
+            </a>
+            <br />
+            <br />
             <p>
                 Read more about the{' '}
                 <a
