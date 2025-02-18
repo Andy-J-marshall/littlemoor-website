@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import clubHouseImg from '../images/membership/clubhouse_external.png';
+import membershipImg from '../images/membership/membership.png';
 
 function About() {
     useEffect(() => {
@@ -29,6 +30,7 @@ function About() {
                 the club and the game of crown green bowls to the local
                 community.
             </p>
+            <img className="membership-page-img" src={clubHouseImg}></img>
             <h3>BOWLING</h3>
             <p>
                 Crown green bowls is a fantastic way to socialise, but for those
@@ -53,7 +55,7 @@ function About() {
                 of representative and cup games, attracting visitors from all
                 over the country.
             </p>
-            <img className="membership-page-img" src={clubHouseImg}></img>
+            <img className="membership-page-img" src={membershipImg}></img>
         </div>
     );
 }

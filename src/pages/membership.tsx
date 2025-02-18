@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { config } from '../config';
-import membershipImg from '../images/membership/membership.png';
-import teamKitImg from '../images/membership/team_kit.png';
+import barImg from '../images/membership/bar.png';
+import snookerImg from '../images/membership/snooker_tables.png';
 
 function Membership() {
     useEffect(() => {
@@ -23,6 +23,13 @@ function Membership() {
                 </a>{' '}
                 or speak to a member if you are interested in joining.
             </p>
+            <img className="membership-page-img" src={barImg}></img>
+            <p>
+                Our club features a fully licensed bar where members can relax
+                and enjoy a drink. We also have two snooker tables and a darts
+                board available for use.
+            </p>
+            <img className="membership-page-img" src={snookerImg}></img>
             <p>
                 Team kit can be bought direct from{' '}
                 <a target="_blank" className="link" href={config.clubShopUrl}>
@@ -30,12 +37,6 @@ function Membership() {
                 </a>
                 .
             </p>
-
-            <a target="_blank" className="link" href={config.clubShopUrl}>
-                <img className="supporters-logos" src={teamKitImg}></img>
-            </a>
-            <br />
-            <br />
             <p>
                 Read more about the{' '}
                 <a
@@ -47,7 +48,6 @@ function Membership() {
                 </a>
                 .
             </p>
-            <img className="membership-page-img" src={membershipImg}></img>
         </div>
     );
 }
