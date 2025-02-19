@@ -42,21 +42,21 @@ function News() {
             expanded: expandNews1,
         },
         {
-            title: 'PRESENTATION NIGHT',
+            title: 'MEMBERSHIP SUBS',
             openingLine:
-                'The presentation night has been booked for the 1st February.',
+                'Subs are now due for 2025.',
             mainText:
-                'It will be held at the clubhouse with the start time to be confirmed.',
+                'Pay the £35 by bank transfer or leave cash in an envelope behind the bar. Remember to leave your name on the envelope or as the reference if paying by BACs.',
             imgSrc: presentationImg,
             callback: handleNewsExpand2,
             expanded: expandNews2,
         },
         {
-            title: 'BOWLS MEETING',
+            title: 'FIXTURES',
             openingLine:
-                'There is a bowls meeting on the 23rd November at 2pm.',
+                '2025 fixtures are now on Bowlsnet.',
             mainText:
-                'The meeting will be held at the club and all members are encouraged to attend. The meeting will discuss the the teams for the upcoming season and to choose the captains.',
+                'The Bradford, Mirfield and AireWharfe league fixtures are all available.',
             imgSrc: captainImg,
             callback: handleNewsExpand3,
             expanded: expandNews3,
