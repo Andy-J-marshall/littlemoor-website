@@ -11,33 +11,26 @@ function News() {
 
     function handleNewsExpand1() {
         setExpandNews1(!expandNews1);
+
         setExpandNews2(false);
         setExpandNews3(false);
     }
 
     function handleNewsExpand2() {
         setExpandNews2(!expandNews2);
+
         setExpandNews1(false);
         setExpandNews3(false);
     }
 
     function handleNewsExpand3() {
         setExpandNews3(!expandNews3);
+
         setExpandNews1(false);
         setExpandNews2(false);
     }
 
     const newsItems = [
-        {
-            title: 'PRESENTATION NIGHT',
-            openingLine:
-                'The presentation night has been booked for the 1st February.',
-            mainText:
-                'It will be held at the clubhouse with the start time to be confirmed.',
-            imgSrc: presentationImg,
-            callback: handleNewsExpand1,
-            expanded: expandNews1,
-        },
         {
             title: 'SPONSORSHIP PACKAGES',
             openingLine:
@@ -45,6 +38,16 @@ function News() {
             mainText:
                 'Find out about our sponsorship packages on the Supporters page.',
             imgSrc: sponsorshipImg,
+            callback: handleNewsExpand1,
+            expanded: expandNews1,
+        },
+        {
+            title: 'PRESENTATION NIGHT',
+            openingLine:
+                'The presentation night has been booked for the 1st February.',
+            mainText:
+                'It will be held at the clubhouse with the start time to be confirmed.',
+            imgSrc: presentationImg,
             callback: handleNewsExpand2,
             expanded: expandNews2,
         },
