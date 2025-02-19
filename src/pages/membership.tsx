@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { config } from '../config';
 import barImg from '../images/membership/bar.png';
 import snookerImg from '../images/membership/snooker_tables.png';
+import teamKitImg from '../images/membership/team_kit.png';
 
 function Membership() {
     useEffect(() => {
@@ -31,13 +32,6 @@ function Membership() {
             </p>
             <img className="membership-page-img" src={snookerImg}></img>
             <p>
-                Team kit can be bought direct from{' '}
-                <a target="_blank" className="link" href={config.clubShopUrl}>
-                    SportsFX
-                </a>
-                .
-            </p>
-            <p>
                 Read more about the{' '}
                 <a
                     target="_blank"
@@ -48,6 +42,17 @@ function Membership() {
                 </a>
                 .
             </p>
+            <p>
+                Team kit can be bought direct from{' '}
+                <a target="_blank" className="link" href={config.clubShopUrl}>
+                    SportsFX
+                </a>
+                .
+            </p>
+            <a target="_blank" className="link" href={config.clubShopUrl}>
+                <img className="supporters-logos" src={teamKitImg}></img>
+            </a>
+            <br />
         </div>
     );
 }
