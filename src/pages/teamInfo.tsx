@@ -4,6 +4,7 @@ import teamImgAW from '../images/teams/monday_airewharfe.png';
 import teamImgMirfield from '../images/teams/mirfield.png';
 import teamImgHalfHol from '../images/teams/half_hol_bradford.png';
 import teamImgSpen from '../images/teams/spen_valley.png';
+import teamImgOssett from '../images/teams/ossett_horbury.png';
 import teamImgVets from '../images/teams/thursday_vets_bradford.png';
 import teamImgSatBrad from '../images/teams/saturday_bradford.png';
 import teamImgBradfordBilliards from '../images/teams/billiards_bradford.png';
@@ -37,6 +38,12 @@ const teams = [
         captain: 'Will Bedford',
         bCaptain: 'Alan Mazurke',
         img: teamImgSpen,
+    },
+    {
+        name: 'Ossett & Horbury',
+        link: 'https://bowlsnet.uk/Ossett',
+        captain: 'Alex Wolfenden',
+        img: teamImgOssett,
     },
     {
         name: 'Thursday Vets Bradford',

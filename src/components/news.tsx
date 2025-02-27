@@ -56,7 +56,7 @@ function News() {
             openingLine:
                 '2025 fixtures are now on Bowlsnet.',
             mainText:
-                'The Bradford, Mirfield and AireWharfe league fixtures are all available.',
+                'The Bradford, Mirfield, Spen and AireWharfe league fixtures are all available.',
             imgSrc: captainImg,
             callback: handleNewsExpand3,
             expanded: expandNews3,
