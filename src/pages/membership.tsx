@@ -18,11 +18,14 @@ function Membership() {
                 welcome but must be accompanied by an adult member.
             </p>
             <p>
-                Please{' '}
+                We also run taster sessions for people of all ages. We will
+                provide all of the equipment, and the tips you need to get
+                started. If you would like to try this out, please get in touch
+                via our{' '}
                 <a className="link" href="/#/contact">
-                    contact us
-                </a>{' '}
-                or speak to a member if you are interested in joining.
+                    contact page
+                </a>
+                .
             </p>
             <img className="membership-page-img" src={barImg}></img>
             <p>

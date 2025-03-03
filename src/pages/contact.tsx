@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { config } from '../config';
 import facebookImg from '../images/socials/facebook_blue.png';
 import instagramImg from '../images/socials/instagram_blue.png';
+import phoneImg from '../images/socials/phone_blue.png';
 import emailImg from '../images/socials/email_blue.png';
 
 const { facebookUrl, instagramUrl, emailUrl, googleMapsIframeUrl } =
@@ -18,15 +19,25 @@ function Contact() {
         <div id="contact-page" className="page-component center">
             <h1>CONTACT US</h1>
             <p>
-                Get in touch via email:
-                <a className="link" href={emailUrl}>
-                    <img className="logos" src={emailImg} alt="Email link" />
-                    {emailAddress}
-                </a>
+                Get in touch with Adam Wider for any enquiries:
+                <div>
+                    <img
+                        className="logos"
+                        src={phoneImg}
+                        alt="Phone link"
+                    />
+                    {config.socialLinks.phoneNumber}
+                </div>
+                <div>
+                    <a className="link" href={emailUrl}>
+                        {emailAddress}
+                    </a>
+                </div>
             </p>
-            <p>
+            <hr />
+            <div>
                 Keep up to date with the latest news via our social media pages:
-            </p>
+            </div>
             <a className="link" target="_blank" href={facebookUrl}>
                 <img className="logos" src={facebookImg} alt="Facebook link" />
             </a>
@@ -36,6 +47,9 @@ function Contact() {
                     src={instagramImg}
                     alt="Instagram link"
                 />
+            </a>
+            <a className="link" href={emailUrl}>
+                <img className="logos" src={emailImg} alt="Email link" />
             </a>
             <div>
                 <h2>LOCATION</h2>

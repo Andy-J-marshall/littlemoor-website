@@ -38,7 +38,7 @@ function About() {
                 competes in many local leagues, including:
             </p>
             <ul>
-                <li>Monday - Aire Wharfe League and Bradford League</li>
+                <li>Monday - AireWharfe League and Bradford League</li>
                 <li>
                     Tuesday - Mirfield League (widely regarded as one of the
                     best leagues in the country)
@@ -47,7 +47,7 @@ function About() {
                     Wednesday - Bradford Half Holiday League and West Riding &
                     Spen Valley League
                 </li>
-                <li>Thursday - Bradford Vets League</li>
+                <li>Thursday - Bradford Vets League & Ossett & Horbury league</li>
                 <li>Saturday - Bradford League</li>
             </ul>
             <p>

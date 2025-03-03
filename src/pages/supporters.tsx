@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { Image } from 'react-bootstrap';
+import { config } from '../config';
 import emailImg from '../images/socials/email_blue.png';
 import phoneImg from '../images/socials/phone_blue.png';
 import pmhImg from '../images/supporters/pmh_accountancy.png';
@@ -34,7 +35,7 @@ function Supporters() {
                 </a>
                 <br />
                 <img className="logos" src={phoneImg} alt="phone icon" />
-                07496083058
+                {config.socialLinks.phoneNumber}
             </p>
             <hr />
 

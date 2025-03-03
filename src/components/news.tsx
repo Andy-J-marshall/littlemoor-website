@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Button, Card, Collapse, Col, Row } from 'react-bootstrap';
-import presentationImg from '../images/news/social.png';
-import sponsorshipImg from '../images/news/sponsors.png';
-import captainImg from '../images/news/captain.png';
+import greenSideImg from '../images/news/green_side.png';
+import quizImg from '../images/news/quiz.png';
+import handshakeImg from '../images/news/handshake.png';
 
 function News() {
     const [expandNews1, setExpandNews1] = useState(false);
@@ -32,32 +32,31 @@ function News() {
 
     const newsItems = [
         {
-            title: 'SPONSORSHIP PACKAGES',
+            title: 'QUIZ NIGHT',
             openingLine:
-                'Sponsorship packages are available for the 2025 season.',
+                'The quiz night is on 15th March at 7.30pm, hosted by Will.',
             mainText:
-                'Find out about our sponsorship packages on the Supporters page.',
-            imgSrc: sponsorshipImg,
+                '£5 per team, maximum of 4 people per team.',
+            imgSrc: quizImg,
             callback: handleNewsExpand1,
             expanded: expandNews1,
         },
         {
-            title: 'MEMBERSHIP SUBS',
-            openingLine:
-                'Subs are now due for 2025.',
+            title: 'BOWLS MEETING',
+            openingLine: 'The next bowls meeting is on 22nd March at 1pm.',
             mainText:
-                'Pay the £35 by bank transfer or leave cash in an envelope behind the bar. Remember to leave your name on the envelope or as the reference if paying by BACs.',
-            imgSrc: presentationImg,
+                'The meeting will discuss the upcoming season and any changes to the teams. The green will officially be open afterwards.',
+            imgSrc: handshakeImg,
             callback: handleNewsExpand2,
             expanded: expandNews2,
         },
         {
-            title: 'FIXTURES',
+            title: 'OSSETT & HORBURY',
             openingLine:
-                '2025 fixtures are now on Bowlsnet.',
+                'Littlemoor have entered a team into the Ossett & Horbury league.',
             mainText:
-                'The Bradford, Mirfield, Spen and AireWharfe league fixtures are all available.',
-            imgSrc: captainImg,
+                'The league is an 8 player team and is played on a Thursday evening. If you are interested in playing, please get in touch with the captain, Alex Wolfenden.',
+            imgSrc: greenSideImg,
             callback: handleNewsExpand3,
             expanded: expandNews3,
         },
