@@ -34,7 +34,7 @@ function News() {
         {
             title: 'QUIZ NIGHT',
             openingLine:
-                'The quiz night is on 15th March at 7.30pm, hosted by Will.',
+                'The quiz night is on 14th March at 7.30pm, hosted by Will.',
             mainText:
                 '£5 per team, maximum of 4 people per team.',
             imgSrc: quizImg,
