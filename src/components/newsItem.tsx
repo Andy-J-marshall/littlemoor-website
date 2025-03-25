@@ -41,7 +41,7 @@ function NewsItem(props: NewsItemProps) {
                             <Button
                                 style={{
                                     marginBottom: '1rem',
-                                    backgroundColor: '#0081a4',
+                                    backgroundColor: '#162645',
                                 }}
                             >
                                 <a
