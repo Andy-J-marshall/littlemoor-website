@@ -4,12 +4,12 @@ import { NewsItemProps } from '../types/interfaces';
 function NewsItem(props: NewsItemProps) {
     const title = props.title;
     const imgSrc = props.imgSrc;
-    const expanded = props.expanded;
     const openingText = props.openingText;
     const mainText = props.mainText;
     const closingText = props.closingText;
     const linkUrl = props.linkUrl;
     const linkText = props.linkText;
+    const expanded = props.expanded;
     const callback = props.callback;
 
     return (

@@ -39,12 +39,12 @@ function News() {
                     <NewsItem
                         title="QUIZ NIGHT"
                         imgSrc={quizImg}
-                        expanded={expandNews1}
                         openingText="The quiz night is on 15th March at 7.30pm, hosted by Will."
                         mainText="£5 per team, maximum of 4 people per team."
                         closingText=""
                         linkUrl=""
                         linkText=""
+                        expanded={expandNews1}
                         callback={handleNewsExpand1}
                     />
                 </Col>
@@ -52,12 +52,12 @@ function News() {
                     <NewsItem
                         title="BOWLS MEETING"
                         imgSrc={handshakeImg}
-                        expanded={expandNews2}
                         openingText="The next bowls meeting is on 22nd March at 1pm."
                         mainText="The meeting will discuss the upcoming season and any changes to the teams. The green will officially be open afterwards."
                         closingText=""
                         linkUrl=""
                         linkText=""
+                        expanded={expandNews2}
                         callback={handleNewsExpand2}
                     />
                 </Col>
@@ -65,12 +65,12 @@ function News() {
                     <NewsItem
                         title="OSSETT & HORBURY"
                         imgSrc={greenSideImg}
-                        expanded={expandNews3}
                         openingText="Littlemoor have entered a team into the Ossett & Horbury league."
                         mainText="The league is an 8 player team and is played on a Thursday evening. If you are interested in playing, please get in touch with the captain, Alex Wolfenden."
                         closingText=""
                         linkUrl=""
                         linkText=""
+                        expanded={expandNews3}
                         callback={handleNewsExpand3}
                     />
                 </Col>
