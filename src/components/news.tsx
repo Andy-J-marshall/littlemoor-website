@@ -37,10 +37,10 @@ function News() {
             <Row xs={1} lg={3} className="g-4 align-items-start">
                 <Col>
                     <NewsItem
-                        title="QUIZ NIGHT"
+                        title="CLUB COMPS"
                         imgSrc={quizImg}
-                        openingText="The quiz night is on 15th March at 7.30pm, hosted by Will."
-                        mainText="£5 per team, maximum of 4 people per team."
+                        openingText="The dates have been announced for the 2025 club comps."
+                        mainText="TBC."
                         closingText=""
                         linkUrl=""
                         linkText=""
@@ -50,10 +50,10 @@ function News() {
                 </Col>
                 <Col>
                     <NewsItem
-                        title="BOWLS MEETING"
+                        title="MIRFIELD MERIT"
                         imgSrc={handshakeImg}
-                        openingText="The next bowls meeting is on 22nd March at 1pm."
-                        mainText="The meeting will discuss the upcoming season and any changes to the teams. The green will officially be open afterwards."
+                        openingText="Littlemoor are hosting the Mirfield Merit on the 20th July."
+                        mainText="TBC."
                         closingText=""
                         linkUrl=""
                         linkText=""
@@ -63,10 +63,10 @@ function News() {
                 </Col>
                 <Col>
                     <NewsItem
-                        title="OSSETT & HORBURY"
+                        title="JUNIOR COMP"
                         imgSrc={greenSideImg}
-                        openingText="Littlemoor have entered a team into the Ossett & Horbury league."
-                        mainText="The league is an 8 player team and is played on a Thursday evening. If you are interested in playing, please get in touch with the captain, Alex Wolfenden."
+                        openingText="Littlemoor are hosting a junior competition on the 14th September."
+                        mainText="TBC."
                         closingText=""
                         linkUrl=""
                         linkText=""
