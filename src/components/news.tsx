@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import NewsItem from './newsItem';
-import greenSideImg from '../images/news/green_side.png';
-import quizImg from '../images/news/quiz.png';
-import handshakeImg from '../images/news/handshake.png';
+import juniorCompWinnerImg from '../images/news/junior_comp_winner.png';
+import mirfieldMeritImg from '../images/news/mirfield_merit.png';
+import clubCupWinnerImg from '../images/news/club_cup_winner.png';
 
 function News() {
     const [expandNews1, setExpandNews1] = useState(false);
@@ -38,10 +38,10 @@ function News() {
                 <Col>
                     <NewsItem
                         title="CLUB COMPS"
-                        imgSrc={quizImg}
-                        openingText="The dates have been announced for the 2025 club comps."
-                        mainText="TBC."
-                        closingText=""
+                        imgSrc={clubCupWinnerImg}
+                        openingText="The dates have been announced for the 2025 club comps:"
+                        mainText="Graham Wood Trophy - 2nd August 2025."
+                        closingText="Gordon Geldart Trophy - 24th August 2025."
                         linkUrl=""
                         linkText=""
                         expanded={expandNews1}
@@ -51,10 +51,10 @@ function News() {
                 <Col>
                     <NewsItem
                         title="MIRFIELD MERIT"
-                        imgSrc={handshakeImg}
+                        imgSrc={mirfieldMeritImg}
                         openingText="Littlemoor are hosting the Mirfield Merit on the 20th July."
-                        mainText="TBC."
-                        closingText=""
+                        mainText="The games will start at 12pm. Come down and support the players, and enjoy some food and drink from Kerbside Cravings."
+                        closingText="There is plenty of parking within a 5 minute walk, and coaches will be organised if there is enough demand."
                         linkUrl=""
                         linkText=""
                         expanded={expandNews2}
@@ -64,9 +64,9 @@ function News() {
                 <Col>
                     <NewsItem
                         title="JUNIOR COMP"
-                        imgSrc={greenSideImg}
+                        imgSrc={juniorCompWinnerImg}
                         openingText="Littlemoor are hosting a junior competition on the 14th September."
-                        mainText="TBC."
+                        mainText="Open to all juniors, the competition will start at 10am."
                         closingText=""
                         linkUrl=""
                         linkText=""
