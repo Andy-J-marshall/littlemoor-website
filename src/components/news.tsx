@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import NewsItem from './newsItem';
-import greenSideImg from '../images/news/green_side.png';
-import quizImg from '../images/news/quiz.png';
-import handshakeImg from '../images/news/handshake.png';
+import juniorCompWinnerImg from '../images/news/junior_comp_winner.png';
+import mirfieldMeritImg from '../images/news/mirfield_merit.png';
+import clubCupWinnerImg from '../images/news/club_cup_winner.png';
 
 function News() {
     const [expandNews1, setExpandNews1] = useState(false);
@@ -37,11 +37,11 @@ function News() {
             <Row xs={1} lg={3} className="g-4 align-items-start">
                 <Col>
                     <NewsItem
-                        title="QUIZ NIGHT"
-                        imgSrc={quizImg}
-                        openingText="The quiz night is on 15th March at 7.30pm, hosted by Will."
-                        mainText="£5 per team, maximum of 4 people per team."
-                        closingText=""
+                        title="CLUB COMPS"
+                        imgSrc={clubCupWinnerImg}
+                        openingText="The dates have been announced for the 2025 club comps:"
+                        mainText="Graham Wood Trophy - 2nd August 2025."
+                        closingText="Gordon Geldart Trophy - 24th August 2025."
                         linkUrl=""
                         linkText=""
                         expanded={expandNews1}
@@ -50,11 +50,11 @@ function News() {
                 </Col>
                 <Col>
                     <NewsItem
-                        title="BOWLS MEETING"
-                        imgSrc={handshakeImg}
-                        openingText="The next bowls meeting is on 22nd March at 1pm."
-                        mainText="The meeting will discuss the upcoming season and any changes to the teams. The green will officially be open afterwards."
-                        closingText=""
+                        title="MIRFIELD MERIT"
+                        imgSrc={mirfieldMeritImg}
+                        openingText="Littlemoor are hosting the Mirfield Merit on the 20th July."
+                        mainText="The games will start at 12pm. Come down and support the players, and enjoy some food and drink from Kerbside Cravings."
+                        closingText="There is plenty of parking within a 5 minute walk, and coaches will be organised if there is enough demand."
                         linkUrl=""
                         linkText=""
                         expanded={expandNews2}
@@ -63,10 +63,10 @@ function News() {
                 </Col>
                 <Col>
                     <NewsItem
-                        title="OSSETT & HORBURY"
-                        imgSrc={greenSideImg}
-                        openingText="Littlemoor have entered a team into the Ossett & Horbury league."
-                        mainText="The league is an 8 player team and is played on a Thursday evening. If you are interested in playing, please get in touch with the captain, Alex Wolfenden."
+                        title="JUNIOR COMP"
+                        imgSrc={juniorCompWinnerImg}
+                        openingText="Littlemoor are hosting a junior competition on the 14th September."
+                        mainText="Open to all juniors, the competition will start at 10am."
                         closingText=""
                         linkUrl=""
                         linkText=""
