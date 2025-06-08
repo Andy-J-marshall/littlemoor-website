@@ -3,7 +3,7 @@ import { Col, Row } from 'react-bootstrap';
 import NewsItem from './newsItem';
 import juniorCompWinnerImg from '../images/news/junior_comp_winner.png';
 import mirfieldMeritImg from '../images/news/mirfield_merit.png';
-import clubCupWinnerImg from '../images/news/club_cup_winner.png';
+import gordonGeldartWinnerImg from '../images/news/gordon_geldart_cup.png';
 
 function News() {
     const [expandNews1, setExpandNews1] = useState(false);
@@ -38,7 +38,7 @@ function News() {
                 <Col>
                     <NewsItem
                         title="CLUB COMPS"
-                        imgSrc={clubCupWinnerImg}
+                        imgSrc={gordonGeldartWinnerImg}
                         openingText="The dates have been announced for the 2025 club comps:"
                         mainText="Graham Wood Trophy - 2nd August 2025."
                         closingText="Gordon Geldart Trophy - 24th August 2025."
