@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import NewsItem from './newsItem';
-import juniorCompWinnerImg from '../images/news/junior_comp_winner.png';
+import juniorCompImg from '../images/news/junior_classic.png';
 import mirfieldMeritImg from '../images/news/mirfield_merit.png';
 import gordonGeldartWinnerImg from '../images/news/gordon_geldart_cup.png';
 
@@ -63,8 +63,8 @@ function News() {
                 </Col>
                 <Col>
                     <NewsItem
-                        title="JUNIOR COMP"
-                        imgSrc={juniorCompWinnerImg}
+                        title="LITTLEMOOR JUNIOR CLASSIC"
+                        imgSrc={juniorCompImg}
                         openingText="Littlemoor will be hosting a junior competition on 21st September."
                         mainText="Open to all juniors under 18 on the day. The competition starts at 9:30am and is limited to 32 entrants."
                         closingText="Entry is £5. Prizes: £200 for the winner, £100 for the runner-up, £50 for each semi-finalist, and £25 for each quarter-finalist."
