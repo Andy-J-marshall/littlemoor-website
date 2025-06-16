@@ -65,9 +65,9 @@ function News() {
                     <NewsItem
                         title="JUNIOR COMP"
                         imgSrc={juniorCompWinnerImg}
-                        openingText="Littlemoor are hosting a junior competition on the 21st September."
-                        mainText="Open to all juniors, the competition will start at 9:30am."
-                        closingText=""
+                        openingText="Littlemoor will be hosting a junior competition on 21st September."
+                        mainText="Open to all juniors under 18 on the day. The competition starts at 9:30am and is limited to 32 entrants."
+                        closingText="Entry is £5. Prizes: £200 for the winner, £100 for the runner-up, £50 for each semi-finalist, and £25 for each quarter-finalist."
                         linkUrl=""
                         linkText=""
                         expanded={expandNews3}
