@@ -65,8 +65,8 @@ function News() {
                     <NewsItem
                         title="JUNIOR COMP"
                         imgSrc={juniorCompWinnerImg}
-                        openingText="Littlemoor are hosting a junior competition on the 14th September."
-                        mainText="Open to all juniors, the competition will start at 10am."
+                        openingText="Littlemoor are hosting a junior competition on the 21st September."
+                        mainText="Open to all juniors, the competition will start at 9:30am."
                         closingText=""
                         linkUrl=""
                         linkText=""
